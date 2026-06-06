@@ -1166,7 +1166,7 @@
       id: "inter_04",
       title: "Amine, 3 ans : trouble du langage, suspicion de TSA et otite séromuqueuse chronique",
       subject: "Psychologie / Audiologie",
-      patient: { age: "3 ans", sexe: "M", description: "Enfant adressé pour retard sévère de langage et suspicion de TSA. Antécédents d'otites séromuqueuses récurrentes." },
+      patient: { âge: "3 ans", sexe: "M", description: "Enfant adressé pour retard sévère de langage et suspicion de TSA. Antécédents d'otites séromuqueuses récurrentes." },
       anamnese: "Amine, 3 ans, est adressé en bilan par la crèche pour un retard sévère de langage. Il prononce moins de 10 mots, ne fait pas de phrases, et a arrêté de babiller vers 18 mois. Il a présenté 4 épisodes d'otite séromuqueuse depuis l'âge de 12 mois, le dernier datant d'il y a 2 mois. Les parents rapportent qu'Amine « ne répond pas toujours à son prénom », « semble dans sa bulle », aligne ses petites voitures pendant des heures sans jouer avec, et fait des crises quand on change ses routines. Il ne pointe pas du doigt pour montrer. En revanche, il recherche les câlins de sa mère et sourit en la voyant. Un audiogramme récent montre une perte de transmission bilatérale de 35 dB, compatible avec des séquelles d'otites séromuqueuses.",
       questions: [
         {
@@ -1213,7 +1213,7 @@
       id: "inter_05",
       title: "Mme Chevalier, 84 ans : presbyacousie non appareillée, chutes à répétition et suspicion de déclin cognitif",
       subject: "Gérontologie / Audiologie",
-      patient: { age: "84 ans", sexe: "F", description: "Veuve depuis 10 ans. AVC ischémique mineur il y a 3 ans sans séquelle motrice notable. Chutes à répétition (3 en 6 mois)." },
+      patient: { âge: "84 ans", sexe: "F", description: "Veuve depuis 10 ans. AVC ischémique mineur il y a 3 ans sans séquelle motrice notable. Chutes à répétition (3 en 6 mois)." },
       anamnese: "Mme Chevalier, 84 ans, vit seule en appartement au 3e étage avec ascenseur. Elle est veuve depuis 10 ans. Antécédents : HTA, AVC ischémique mineur il y a 3 ans (sans séquelle motrice notable), arthrose lombaire. Elle a chuté 3 fois en 6 mois : une fois en se levant la nuit, une fois dans la rue, une fois dans sa salle de bain. Son fils rapporte qu'elle « entend de moins en moins bien », fait répéter constamment, ne répond plus au téléphone, a cessé ses activités sociales (chorale, club de lecture). La télévision est réglée très fort. Le médecin traitant évoque un possible déclin cognitif. Audiogramme : perte neurosensorielle bilatérale de 58 dB en moyenne (presbyacousie), non appareillée. Fried : perte de poids de 3 kg en 1 an, fatigue, sédentarité. Albumine à 34 g/L. MMSE : 24/30 (dont plusieurs items échoués semblant liés à la compréhension auditive).",
       questions: [
         {

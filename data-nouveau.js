@@ -616,7 +616,7 @@
     {
       "id": "audio_62",
       "question": "Parmi les 4 profils cliniques de patients adultes décrits dans le cours, qui est Capucine et quel est son besoin principal ?",
-      "options": ["A. Une patiente de 66 ans présentant une surdité progressive post-exposition au bruit professionnel", "B. Une jeune femme de 25 ans sourde depuis la naissance (DA sévère), qui souhaite entendre les pleurs de ses enfants grâce à un implant cochléaire", "C. Une pianiste de 77 ans insatisfaite de son appareillage conventionnel", "D. Un homme de 46 ans souffrant de la maladie de Menière et de crises vertigineuses"],
+      "options": ["A. Une patiente de 66 ans présentant une surdité progressive post-exposition au bruit professionnel", "B. Une jeune femme de 25 ans sourde depuis la naissance (DA sévère), qui souhaite entendre les pleurs de ses enfants grâce à un implant cochléaire", "C. Une pianiste de 77 ans insatisfaite de son appareillage conventionnel", "D. Un homme de 46 ans souffrant de la maladie de Ménière et de crises vertigineuses"],
       "correct": 1,
       "explanation": "Capucine est une jeune adulte de 25 ans présentant une surdité sévère depuis la naissance. Son souhait spécifique est d'entendre les pleurs de ses enfants (motivation parentale forte pour l'implantation cochléaire). Ce cas illustre la rééducation auditive chez un jeune adulte sourd de naissance qui fait le choix de l'IC à l'âge adulte pour des raisons fonctionnelles et affectives précises.",
       "source": "Presbyacousie et LL",
@@ -651,17 +651,17 @@
     },
     {
       "id": "audio_66",
-      "question": "Qu'est-ce que la maladie de Menière et quelle est sa triade symptomatique ?",
+      "question": "Qu'est-ce que la maladie de Ménière et quelle est sa triade symptomatique ?",
       "options": ["A. Une infection bactérienne de l'oreille moyenne résistante aux antibiotiques", "B. Une pathologie de l'oreille interne associant la triade : vertiges + acouphènes + surdité fluctuante, évoluant par crises", "C. Une malformation congénitale du pavillon de l'oreille avec atrésie du conduit", "D. Une tumeur bénigne du nerf vestibulaire comprimant le tronc cérébral"],
       "correct": 1,
-      "explanation": "La maladie de Menière est une pathologie de l'oreille interne (labyrinthe) caractérisée par la triade symptomatique : (1) vertiges (crises rotatoires durant de quelques minutes à quelques heures), (2) acouphènes (bourdonnements/sifflements), (3) surdité fluctuante (la perte varie au cours du temps, touchant d'abord les graves). Elle évolue par crises. Dans le cours, le patient Thibaut (46 ans) illustre cette pathologie.",
+      "explanation": "La maladie de Ménière est une pathologie de l'oreille interne (labyrinthe) caractérisée par la triade symptomatique : (1) vertiges (crises rotatoires durant de quelques minutes à quelques heures), (2) acouphènes (bourdonnements/sifflements), (3) surdité fluctuante (la perte varie au cours du temps, touchant d'abord les graves). Elle évolue par crises. Dans le cours, le patient Thibaut (46 ans) illustre cette pathologie.",
       "source": "Presbyacousie et LL",
       "difficulty": "medium"
     },
     {
       "id": "audio_67",
       "question": "Qui est Guislaine parmi les profils cliniques de patients adultes en rééducation auditive ?",
-      "options": ["A. Une jeune femme sourde de naissance candidate à l'implantation cochléaire", "B. Une patiente de 77 ans présentant une presbyacousie, appareillée mais non satisfaite, et pianiste", "C. Un homme souffrant de la maladie de Menière avec acouphènes invalidants", "D. Un patient avec une surdité post-traumatique due à un accident du travail"],
+      "options": ["A. Une jeune femme sourde de naissance candidate à l'implantation cochléaire", "B. Une patiente de 77 ans présentant une presbyacousie, appareillée mais non satisfaite, et pianiste", "C. Un homme souffrant de la maladie de Ménière avec acouphènes invalidants", "D. Un patient avec une surdité post-traumatique due à un accident du travail"],
       "correct": 1,
       "explanation": "Guislaine est une patiente de 77 ans présentant une presbyacousie pour laquelle elle est appareillée, mais elle n'est pas satisfaite du résultat. Elle est pianiste, ce qui ajoute une dimension spécifique à sa plainte (perception musicale altérée). Ce cas illustre les limites de l'appareillage conventionnel dans la presbyacousie et l'importance de l'accompagnement logopédique (réglages, attentes réalistes, stratégies compensatoires).",
       "source": "Presbyacousie et LL",
@@ -973,8 +973,8 @@
   A.fichesMemo.audio.push({
     "id": "fm_audio_07",
     "title": "Presbyacousie et rééducation auditive adulte",
-    "content": "Presbyacousie : surdité de perception liée à l'âge, principale cause de surdité chez l'adulte. Touche d'abord les aigus. Bilatérale et progressive. Appareillage précoce recommandé pour prévenir isolement social, déclin cognitif et fragilité. 4 profils cliniques adultes : Capucine (25a, sourde naissance, IC pour entendre pleurs enfants), Michel (66a, DA progressive post-bruit professionnel, IC), Thibaut (46a, Maladie de Menière : triade vertiges + acouphènes + surdité fluctuante, IC possible), Guislaine (77a, presbyacousie appareillée non satisfaite, pianiste). Lecture labiale : complément essentiel à l'appareillage. Axes rééducation : entraînement discrimination auditive, lecture labiale, stratégies de communication, guidance des proches. Enjeu spécifique IC chez adulte sourd de naissance : apprendre à interpréter des sensations auditives jamais expérimentées, intégrer aux modalités de communication existantes.",
-    "keyPoints": ["Presbyacousie : 1ère cause surdité adulte, aigus, progressive", "4 profils : Capucine (IC, 25a), Michel (IC post-bruit, 66a), Thibaut (Menière, 46a), Guislaine (77a)", "Menière : vertiges + acouphènes + surdité fluctuante, crises", "Lecture labiale = complément essentiel", "Rééducation : discrimination, LL, stratégies communication, guidance proches"],
+    "content": "Presbyacousie : surdité de perception liée à l'âge, principale cause de surdité chez l'adulte. Touche d'abord les aigus. Bilatérale et progressive. Appareillage précoce recommandé pour prévenir isolement social, déclin cognitif et fragilité. 4 profils cliniques adultes : Capucine (25a, sourde naissance, IC pour entendre pleurs enfants), Michel (66a, DA progressive post-bruit professionnel, IC), Thibaut (46a, Maladie de Ménière : triade vertiges + acouphènes + surdité fluctuante, IC possible), Guislaine (77a, presbyacousie appareillée non satisfaite, pianiste). Lecture labiale : complément essentiel à l'appareillage. Axes rééducation : entraînement discrimination auditive, lecture labiale, stratégies de communication, guidance des proches. Enjeu spécifique IC chez adulte sourd de naissance : apprendre à interpréter des sensations auditives jamais expérimentées, intégrer aux modalités de communication existantes.",
+    "keyPoints": ["Presbyacousie : 1ère cause surdité adulte, aigus, progressive", "4 profils : Capucine (IC, 25a), Michel (IC post-bruit, 66a), Thibaut (Ménière, 46a), Guislaine (77a)", "Ménière : vertiges + acouphènes + surdité fluctuante, crises", "Lecture labiale = complément essentiel", "Rééducation : discrimination, LL, stratégies communication, guidance proches"],
     "source": "Presbyacousie et LL"
   });
   A.fichesMemo.audio.push({
@@ -1186,9 +1186,9 @@
   });
   A.vraiFaux.audio.push({
     "id": "vf_audio_27",
-    "statement": "La maladie de Menière associe vertiges, acouphènes et surdité fluctuante.",
+    "statement": "La maladie de Ménière associe vertiges, acouphènes et surdité fluctuante.",
     "answer": true,
-    "explanation": "La maladie de Menière est caractérisée par la triade : (1) vertiges (crises rotatoires), (2) acouphènes (bourdonnements/sifflements), (3) surdité fluctuante. Elle évolue par crises et touche l'oreille interne (labyrinthe).",
+    "explanation": "La maladie de Ménière est caractérisée par la triade : (1) vertiges (crises rotatoires), (2) acouphènes (bourdonnements/sifflements), (3) surdité fluctuante. Elle évolue par crises et touche l'oreille interne (labyrinthe).",
     "source": "Presbyacousie et LL"
   });
   A.vraiFaux.audio.push({
@@ -1358,7 +1358,7 @@
       "id": "inter_11",
       "title": "Mme Dubois, 82 ans — Presbyphagie, presbyacousie et dépression",
       "subject": "Gérontologie / Audiologie / Psychologie",
-      "patient": {"age": "82 ans", "sexe": "F", "description": "Veuve, vit en MRPA. Presbyphagie avec fausses routes, presbyacousie non appareillée, probable dépression masquée."},
+      "patient": {"âge": "82 ans", "sexe": "F", "description": "Veuve, vit en MRPA. Presbyphagie avec fausses routes, presbyacousie non appareillée, probable dépression masquée."},
       "anamnese": "Mme Dubois, 82 ans, vit en MRPA depuis 2 ans. Elle est veuve depuis 5 ans. Elle présente une presbyacousie bilatérale de 55 dB (moyenne 1er degré BIAP), non appareillée. Depuis 6 mois, l'équipe soignante signale des fausses routes aux liquides (toux pendant les repas, voix mouillée) et un temps de repas de plus en plus long. Elle a perdu 4 kg en 3 mois (52→48 kg). Elle ne participe plus aux activités collectives, reste dans sa chambre, pleure facilement et dit qu'elle « ne sert plus à rien ». Elle refuse l'appareillage auditif : « ça ne changera rien, je suis trop vieille. » Le GDS est à 9/15 (dépression probable).",
       "questions": [
         {
@@ -1390,7 +1390,7 @@
       "id": "inter_12",
       "title": "Nathan, 3 ans — Suspicions TSA et surdité : quelle PEC prioritaire ?",
       "subject": "Psychologie / Audiologie",
-      "patient": {"age": "3 ans", "sexe": "M", "description": "Retard de langage sévère, absence de réponse au prénom, stéréotypies. Pas de dépistage auditif néonatal. Suspicion de TSA."},
+      "patient": {"âge": "3 ans", "sexe": "M", "description": "Retard de langage sévère, absence de réponse au prénom, stéréotypies. Pas de dépistage auditif néonatal. Suspicion de TSA."},
       "anamnese": "Nathan, 3 ans, est adressé par le pédiatre pour suspicion de TSA. Les parents rapportent : absence de langage oral (aucun mot), ne répond pas à son prénom, évitement du regard, balancements stéréotypés quand il est excité, fascination pour les lumières et les objets qui tournent, intolérance majeure aux changements de routine (crises). Il ne pointe pas du doigt, n'amène pas d'objets à ses parents. Il est né à l'étranger et n'a pas bénéficié de dépistage auditif néonatal. Les parents s'interrogent : « Et s'il n'entendait tout simplement pas ? » Le bilan ORL est en cours d'organisation.",
       "questions": [
         {
@@ -1426,7 +1426,7 @@
       "id": "audio_reed_10",
       "title": "Capucine, 25 ans — IC chez jeune adulte sourde de naissance",
       "subject": "Audiologie clinique",
-      "patient": {"age": "25 ans", "sexe": "F"},
+      "patient": {"âge": "25 ans", "sexe": "F"},
       "hearingLoss": {"type": "Surdité de perception bilatérale congénitale", "degree": "Sévère (75 dB)", "averageLoss": "75 dB"},
       "anamnese": "Capucine, 25 ans, est sourde de naissance (surdité de perception bilatérale sévère, perte moyenne de 75 dB). Elle a été appareillée par des prothèses conventionnelles depuis l'enfance et communique principalement par oral avec un bon niveau de langage, complété par la lecture labiale et quelques signes. Elle vient d'accoucher de son premier enfant et motive une demande d'implant cochléaire par un souhait très précis : « Je veux entendre les pleurs de mon bébé la nuit. » Elle est consciente que l'IC ne lui donnera pas une audition normale mais espère un bénéfice fonctionnel dans sa vie de jeune maman. Le bilan pré-implant confirme un nerf cochléaire intact et une anatomie favorable.",
       "questions": [
@@ -1460,7 +1460,7 @@
       "id": "audio_reed_11",
       "title": "Michel, 66 ans — IC après surdité acquise post-traumatique",
       "subject": "Audiologie clinique",
-      "patient": {"age": "66 ans", "sexe": "M"},
+      "patient": {"âge": "66 ans", "sexe": "M"},
       "hearingLoss": {"type": "Surdité de perception bilatérale acquise", "degree": "Sévère (80 dB)", "averageLoss": "80 dB"},
       "anamnese": "Michel, 66 ans, est un ancien ouvrier dans l'industrie métallurgique, exposé pendant 35 ans à des niveaux sonores élevés sans protection auditive adéquate. Il a développé une surdité de perception bilatérale progressive, actuellement à 80 dB de perte moyenne (sévère 1er degré BIAP). Il est appareillé depuis 10 ans avec des ACA mais le bénéfice est devenu insuffisant : « Je ne comprends plus mes petits-enfants, je fais répéter ma femme sans arrêt, j'évite les réunions de famille, je me sens exclu. » Il ne lit pas sur les lèvres. Le bilan pré-implant confirme un nerf cochléaire intact. L'IC est proposé. Michel est motivé mais anxieux : « Est-ce que ça va vraiment changer quelque chose à mon âge ? »",
       "questions": [
@@ -1498,7 +1498,7 @@
       "id": "frag_12",
       "title": "Mme L., 96 ans — Presbyphagie, fausses routes et pneumopathie",
       "subject": "Gérontologie",
-      "patient": {"age": "96 ans", "sexe": "F", "description": "Vit en MRPA. Presbyphagie sévère avec fausses routes. Hospitalisée pour pneumopathie d'inhalation."},
+      "patient": {"âge": "96 ans", "sexe": "F", "description": "Vit en MRPA. Presbyphagie sévère avec fausses routes. Hospitalisée pour pneumopathie d'inhalation."},
       "anamnese": "Mme L., 96 ans, est institutionnalisée en MRPA depuis 4 ans. Elle présente une presbyphagie évoluée avec des fausses routes aux liquides connues depuis 18 mois. Elle a refusé l'eau gélifiée proposée par l'équipe (« ça n'a pas de goût ») et continue de boire de l'eau plate. Elle présente une perte de poids progressive (52 à 44 kg en 1 an, soit 8 kg). Elle est hospitalisée en urgence pour une pneumopathie d'inhalation sévère (fièvre, toux, désaturation). À l'hôpital, l'état général est très altéré : albumine à 26 g/L (dénutrition sévère), impossibilité de se lever seule, confusion fluctuante. Score Fried : 4/5 (fragile). Le bilan de déglutition confirme des fausses routes silencieuses massives aux liquides et une inefficacité de la propulsion du bolus.",
       "questions": [
         {
@@ -1530,7 +1530,7 @@
       "id": "frag_13",
       "title": "M. Simon, 78 ans — Presbyphonie et isolement social",
       "subject": "Gérontologie",
-      "patient": {"age": "78 ans", "sexe": "M", "description": "Ancien enseignant. Presbyphonie avec plainte vocale. Isolement social progressif. Veuf depuis 3 ans."},
+      "patient": {"âge": "78 ans", "sexe": "M", "description": "Ancien enseignant. Presbyphonie avec plainte vocale. Isolement social progressif. Veuf depuis 3 ans."},
       "anamnese": "M. Simon, 78 ans, est un ancien enseignant de français, veuf depuis 3 ans. Il vit seul en appartement. Il consulte pour une plainte vocale : « Ma voix est devenue faible, rauque, je n'arrive plus à soutenir une conversation. » Il rapporte qu'il évite désormais les réunions de son ancien club de lecture et les appels téléphoniques car « les gens me demandent sans arrêt de répéter, ça m'épuise et ça me gêne. » Il a réduit ses sorties et voit moins ses enfants. Bilan ORL : presbyphonie (cordes vocales atrophiques, défaut d'accollement), pas de lésion tumorale. VHI : score élevé (handicap vocal modéré à sévère). Bilan Fried : pas de perte de poids (stable), marche 4m en 5 secondes, force 24 kg. Épuisement auto-rapporté lié à l'effort vocal. Score : 1/5 (pré-fragile).",
       "questions": [
         {

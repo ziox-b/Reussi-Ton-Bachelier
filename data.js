@@ -25,7 +25,7 @@ window.APP_DATA = {
           "D. Troubles du spectre autistique infantile"
         ],
         correct: 0,
-        explanation: "Le DSM-IV utilisait le terme « troubles envahissants du développement » (TED) qui englobait l'autisme, le syndrome d'Asperger, le TED non spécifié et le trouble désintégratif de l'enfance. Le DSM-5 les fusionne sous l'appellation unique TSA. Les réponses B, C et D ne correspondent pas à la terminologie antérieure du DSM-IV pour cet ensemble nosographique.",
+        explanation: "Le DSM-IV utilisait le terme « troubles envahissants du développement » (TED) qui englobait l'autisme, le syndrome d'Asperger, le TED non spécifié et le trouble désintégratif de l'enfance. La première description de l'autisme infantile a été faite par Leo Kanner en 1943. Le DSM-5 fusionne ces catégories sous l'appellation unique TSA.",
         source: "TSA Partie 1",
         difficulty: "easy"
       },
@@ -1064,7 +1064,7 @@ window.APP_DATA = {
         id: "inter_01",
         title: "Léo, 4 ans : retard de langage et suspicion de TSA chez un enfant sourd",
         subject: "Psychologie / Audiologie",
-        patient: { age: "4 ans", sexe: "M", description: "Enfant adressé pour retard de langage sévère avec suspicion de TSA. Parents entendants." },
+        patient: { âge: "4 ans", sexe: "M", description: "Enfant adressé pour retard de langage sévère avec suspicion de TSA. Parents entendants." },
         anamnese: "Léo est le deuxième enfant de parents entendants, sans antécédents familiaux de surdité. La grossesse et l'accouchement se sont déroulés sans particularité. Les parents rapportent que Léo était un bébé « très calme », ne pleurait jamais, ne babillait pas à 10 mois. Il n'a pas réagi aux tests de dépistage auditif néonatal — mais les parents pensaient que c'était dû à son « caractère calme ». À 4 ans, Léo ne parle pas, ne répond pas à son prénom, évite le contact visuel, présente des balancements stéréotypés et s'intéresse exclusivement aux objets qui tournent. Il ne pointe pas et ne montre aucune attention conjointe. Le pédiatre évoque un TSA. Un bilan ORL révèle une surdité de perception bilatérale profonde (95 dB de perte moyenne).",
           questions: [
             {
@@ -1111,7 +1111,7 @@ window.APP_DATA = {
         id: "inter_02",
         title: "Mme Vandenberghe, 78 ans : presbyacousie, isolement social et suspicion de déclin cognitif",
         subject: "Gérontologie / Audiologie / Psychologie",
-        patient: { age: "78 ans", sexe: "F", description: "Veuve, vit seule en appartement. Se plaint de ne plus comprendre les conversations." },
+        patient: { âge: "78 ans", sexe: "F", description: "Veuve, vit seule en appartement. Se plaint de ne plus comprendre les conversations." },
         anamnese: "Mme Vandenberghe, 78 ans, est veuve depuis 5 ans et vit seule dans un appartement au 1er étage sans ascenseur. Elle présente un diabète de type 2, une HTA traitée et une gonarthrose. Depuis environ 18 mois, sa fille rapporte que sa mère se plaint de « ne plus comprendre ce qu'on lui dit », fait répéter constamment, a cessé d'aller au club de bridge qu'elle affectionnait, et refuse les invitations familiales. Elle semble « ailleurs » pendant les conversations. Sa fille a remarqué qu'elle augmente systématiquement le volume de la télévision. Le médecin traitant évoque un possible déclin cognitif débutant. Au test de Fried : perte de poids de 4 kg en 1 an (58→54 kg), fatigue auto-rapportée, marche 4 mètres en 5 secondes. Un audiogramme révèle une perte auditive neurosensorielle bilatérale de 55 dB en moyenne sur les fréquences conversationnelles, compatible avec une presbyacousie.",
           questions: [
             {
@@ -1158,7 +1158,7 @@ window.APP_DATA = {
         id: "inter_03",
         title: "M. Lefebvre, 82 ans : Parkinson, dysphagie et troubles de la communication",
         subject: "Gérontologie / Psychologie",
-        patient: { age: "82 ans", sexe: "M", description: "Ancien professeur d'université, vit avec son épouse. Maladie de Parkinson diagnostiquée il y a 6 ans." },
+        patient: { âge: "82 ans", sexe: "M", description: "Ancien professeur d'université, vit avec son épouse. Maladie de Parkinson diagnostiquée il y a 6 ans." },
         anamnese: "M. Lefebvre, 82 ans, ancien professeur de mathématiques, est suivi pour une maladie de Parkinson diagnostiquée il y a 6 ans. Il vit avec son épouse de 78 ans dans une maison à deux étages. Il présente une bradykinésie, une rigidité, des troubles de la marche et une hypophonie croissante. Depuis 6 mois, son épouse rapporte qu'il « s'étouffe » fréquemment pendant les repas, tousse en buvant, et a perdu 6 kg (68→62 kg). Il refuse de voir ses anciens collègues, se dit « honteux » de sa voix et de ses difficultés à manger. Il n'a plus d'appétit. Son traitement parkinsonien est bien suivi. Fried : perte de poids >4,5 kg, fatigue, lenteur (marche 4m en 7s), faiblesse (grip 18/16 kg), sédentarité. Albuminémie à 30 g/L.",
           questions: [
             {
@@ -1320,7 +1320,7 @@ window.APP_DATA = {
         id: "frag_01",
         title: "M. Dubois, 76 ans — Pré-fragilité et vertiges",
         subject: "Gérontologie",
-        patient: { age: "76 ans", sexe: "M", description: "Chute récente. HTA, hypercholestérolémie, arthrose. Vit avec son épouse en maison." },
+        patient: { âge: "76 ans", sexe: "M", description: "Chute récente. HTA, hypercholestérolémie, arthrose. Vit avec son épouse en maison." },
         anamnese: "M. Dubois, 76 ans, a chuté il y a 2 jours en allant aux toilettes la nuit. Il présente une HTA traitée, une hypercholestérolémie et une arthrose des genoux. Il vit avec son épouse dans une maison de plain-pied. Il marche avec une canne depuis 1 an. Son poids est passé de 72 à 77 puis 78 kg (prise de poids, pas de perte). Son épouse signale qu'il « ralentit », se fatigue plus vite, mais qu'il a « bon appétit ». Test de marche : 4 mètres en 6 secondes avec canne. Force de préhension : 27/26 kg (normale pour l'âge).",
           questions: [
             {
@@ -1355,7 +1355,7 @@ window.APP_DATA = {
         id: "frag_02",
         title: "Mme Garcia, 81 ans — Fragilité et syndrome de glissement",
         subject: "Gérontologie",
-        patient: { age: "81 ans", sexe: "F", description: "Gastro-entérite récente. Vit seule au 2e étage sans ascenseur. Veuve depuis 3 ans." },
+        patient: { âge: "81 ans", sexe: "F", description: "Gastro-entérite récente. Vit seule au 2e étage sans ascenseur. Veuve depuis 3 ans." },
         anamnese: "Mme Garcia, 81 ans, a présenté une gastro-entérite il y a 10 jours. Elle vit seule dans un appartement au 2e étage sans ascenseur. Veuve depuis 3 ans, elle était très proche de son mari. Antécédents : diabète de type 2, hypothyroïdie, gonarthrose bilatérale. Son poids est passé de 61-62 kg à 56 kg actuellement. Albumine à 33 g/L. Sa fille rapporte qu'elle ne s'alimente plus que de plats préparés, qu'elle a été retrouvée assise par terre dans la cuisine (incapable de se relever seule), refuse toute aide, et voit de moins en moins ses amies. Fried : perte de poids (>4,5 kg), fatigue, faiblesse, lenteur, sédentarité — score 5/5.",
           questions: [
             {
@@ -1390,7 +1390,7 @@ window.APP_DATA = {
         id: "frag_03",
         title: "M. Leroy, 79 ans — Fragilité sévère et BPCO avec fausses routes",
         subject: "Gérontologie",
-        patient: { age: "79 ans", sexe: "M", description: "Exacerbation de BPCO. Fibrillation auriculaire. Dénutrition. Vit avec son épouse en maison à 2 étages." },
+        patient: { âge: "79 ans", sexe: "M", description: "Exacerbation de BPCO. Fibrillation auriculaire. Dénutrition. Vit avec son épouse en maison à 2 étages." },
         anamnese: "M. Leroy, 79 ans, est hospitalisé pour une exacerbation de BPCO avec fibrillation auriculaire. Il vit avec son épouse dans une maison à deux étages. Il a arrêté la kinésithérapie respiratoire il y a 6 mois, la jugeant « trop fatigante ». Son poids est passé de 67 à 65 puis 62 puis 58 kg (perte de 9 kg en 1 an). Son épouse signale des « fausses routes » récurrentes aux liquides. Force de préhension : 22/20 kg (faible). Test de marche : lenteur marquée (non chronométrée). Fried : 5/5. Problème sous-jacent identifié : fragilité sévère + BPCO décompensée. Réversibilité jugée LIMITÉE.",
           questions: [
             {
