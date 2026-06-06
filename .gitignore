@@ -1,0 +1,11 @@
+# Fichiers de cours (volumineux)
+UE320 Interdisciplinarité/
+
+# Fichiers temporaires
+/tmp/
+*.pyc
+__pycache__/
+
+# Système
+.DS_Store
+Thumbs.db
