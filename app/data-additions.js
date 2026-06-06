@@ -12,10 +12,10 @@
       id: "psycho_26",
       question: "Quelle distinction existe-t-il entre la Théorie de l'Esprit de 1er ordre et de 2nd ordre ?",
       options: [
-        "A. La ToM de 1er ordre concerne l'inférence des émotions primaires ; la ToM de 2nd ordre concerne l'inférence des pensées complexes métaphysiques",
+        "A. La ToM de 1er ordre concerne l'inférence des états affectifs ; la ToM de 2nd ordre concerne l'inférence des intentions communicatives",
         "B. La ToM de 1er ordre est la capacité d'attribuer des états mentaux à autrui ; la ToM de 2nd ordre est la capacité d'inférer ce qu'une personne pense qu'une autre personne pense",
-        "C. La ToM de 1er ordre émerge à 2 ans et la ToM de 2nd ordre à 3 ans",
-        "D. La ToM de 1er ordre n'est pas déficitaire dans le TSA contrairement à la ToM de 2nd ordre"
+        "C. La ToM de 1er ordre émerge à 3 ans et la ToM de 2nd ordre à 5 ans",
+        "D. La ToM de 1er ordre est déficitaire dans le TSA mais la ToM de 2nd ordre y est préservée"
       ],
       correct: 1,
       explanation: "La Théorie de l'Esprit de 1er ordre est la capacité d'attribuer des états mentaux (croyances, désirs, intentions) à autrui (ex. « Je pense que X... »). La ToM de 2nd ordre est la capacité d'inférer ce qu'une personne pense qu'une autre personne pense (ex. « Je pense que A pense que B... »). Dans le TSA, ces deux niveaux sont déficitaires, bien que la ToM de 2nd ordre soit plus complexe.",
@@ -26,10 +26,10 @@
       id: "psycho_27",
       question: "Le Profil Sensoriel de Dunn (Dunn Sensory Profile) évalue :",
       options: [
-        "A. Uniquement la sensibilité auditive des enfants avec TSA",
+        "A. La sensibilité auditive et tactile des enfants avec TSA",
         "B. Les réponses comportementales aux stimuli sensoriels dans la vie quotidienne en identifiant les patterns d'hyper- et d'hyporéactivité",
-        "C. Le niveau intellectuel des enfants avec trouble sensoriel",
-        "D. La discrimination auditive fine uniquement"
+        "C. Le développement psychomoteur des enfants présentant des particularités sensorielles",
+        "D. La discrimination auditive fréquentielle en cabine insonorisée"
       ],
       correct: 1,
       explanation: "Le Profil Sensoriel de Dunn est un outil standardisé qui évalue les réponses comportementales aux stimuli sensoriels dans la vie quotidienne. Il identifie les patterns d'hyperréactivité (défense sensorielle) et d'hyporéactivité (recherche sensorielle) à travers les 7 systèmes sensoriels, permettant une intervention individualisée. Il ne se limite pas à l'audition (A, D) et n'évalue pas le niveau intellectuel (C).",
@@ -40,10 +40,10 @@
       id: "psycho_28",
       question: "Quelle différence fondamentale existe-t-il entre l'ABLLS-R et le VB-MAPP dans l'évaluation du TSA ?",
       options: [
-        "A. L'ABLLS-R évalue uniquement le langage réceptif ; le VB-MAPP uniquement le langage expressif",
+        "A. L'ABLLS-R évalue le langage réceptif et le jeu ; le VB-MAPP évalue le langage expressif et la cognition",
         "B. L'ABLLS-R couvre 25 domaines de compétences (langage, social, autonomie, moteur, académique) tandis que le VB-MAPP se concentre sur les compétences verbales selon l'analyse de Skinner (mand, tact, intraverbal)",
-        "C. L'ABLLS-R est réservé aux adultes ; le VB-MAPP aux enfants",
-        "D. Ces deux outils sont identiques dans leur conception et leur utilisation"
+        "C. L'ABLLS-R est destiné aux adolescents et adultes ; le VB-MAPP aux enfants de moins de 3 ans",
+        "D. Ces deux outils évaluent les mêmes domaines mais selon des modalités différentes"
       ],
       correct: 1,
       explanation: "L'ABLLS-R (Assessment of Basic Language and Learning Skills - Revised) couvre 25 domaines incluant langage, social, autonomie, motricité et académique, offrant une vision large des compétences. Le VB-MAPP (Verbal Behavior Milestones Assessment and Placement Program) se concentre sur les compétences verbales selon l'approche de Skinner (mand, tact, intraverbal, etc.). Les deux sont complémentaires.",
@@ -55,9 +55,9 @@
       question: "L'ECSP (Évaluation de la Communication Sociale Précoce) est un outil qui évalue spécifiquement :",
       options: [
         "A. Les compétences de communication précoce chez les enfants de 3 à 30 mois, en distinguant les fonctions pragmatiques (régulation, interaction sociale, attention conjointe)",
-        "B. Les compétences de lecture chez les enfants de 6 à 12 ans",
-        "C. La motricité fine et globale chez le nourrisson",
-        "D. Les troubles du comportement alimentaire"
+        "B. Les compétences communicatives non verbales chez les enfants de 4 à 10 ans",
+        "C. La coordination sensori-motrice et les réflexes archaïques chez le nourrisson",
+        "D. Les troubles de l'oralité alimentaire chez l'enfant de 2 à 6 ans"
       ],
       correct: 0,
       explanation: "L'ECSP (Évaluation de la Communication Sociale Précoce) évalue les compétences de communication précoce chez les enfants de 3 à 30 mois. Elle distingue trois fonctions pragmatiques majeures : la régulation du comportement, l'interaction sociale et l'attention conjointe, essentielles dans l'évaluation précoce du TSA.",
@@ -68,10 +68,10 @@
       id: "psycho_30",
       question: "Quelle particularité relative à la Théorie de l'Esprit est observée dans le syndrome de Williams/Beuren et la trisomie 21 ?",
       options: [
-        "A. La ToM est totalement absente dans ces deux syndromes",
+        "A. La ToM est déficitaire dans le syndrome de Williams mais préservée dans la trisomie 21",
         "B. La ToM est préservée dans ces deux syndromes malgré la déficience intellectuelle, contrairement au TSA où la ToM est déficitaire",
-        "C. La ToM est supérieure à la moyenne dans la trisomie 21",
-        "D. La ToM n'a pas été étudiée dans ces syndromes"
+        "C. La ToM est comparable à celle du TSA dans ces deux syndromes",
+        "D. La ToM n'a été explorée que dans le cadre de l'autisme, pas dans ces syndromes"
       ],
       correct: 1,
       explanation: "Dans le syndrome de Williams/Beuren et la trisomie 21, la Théorie de l'Esprit est relativement préservée malgré la déficience intellectuelle, ce qui constitue un contraste important avec le TSA où la ToM est spécifiquement déficitaire. Cela suggère une dissociation entre l'intelligence générale et les compétences en ToM.",
@@ -82,10 +82,10 @@
       id: "psycho_31",
       question: "Selon Simms & Jin (2015), quelle caractéristique N'EST PAS présente dans le Trouble de la Communication Sociale (Pragmatique) ?",
       options: [
-        "A. Un intérêt social fort",
-        "B. Des interactions inappropriées mais non dues à des déficits langagiers de base",
+        "A. Une recherche active d'interactions sociales",
+        "B. Des difficultés interactionnelles non expliquées par des déficits langagiers structurels",
         "C. Des comportements restreints et répétitifs",
-        "D. Une imitation et un faire-semblant préservés"
+        "D. Des capacités d'imitation et de jeu symbolique intactes"
       ],
       correct: 2,
       explanation: "Selon Simms & Jin (2015), le trouble de la communication sociale (pragmatique) est caractérisé par un intérêt social fort (A), des interactions inappropriées mais non dues à des déficits langagiers de base (B), une imitation et un faire-semblant préservés (D). En revanche, il n'y a PAS de comportements restreints et répétitifs (C) — c'est précisément ce qui le différencie du TSA.",
@@ -96,10 +96,10 @@
       id: "psycho_32",
       question: "Parmi les propositions suivantes concernant la gestion émotionnelle dans le TSA, laquelle est EXACTE ?",
       options: [
-        "A. Les personnes avec TSA ne ressentent pas les émotions",
+        "A. Les personnes avec TSA présentent une alexithymie dans plus de 80% des cas",
         "B. Les difficultés de gestion émotionnelle sont liées aux déficits de la Théorie de l'Esprit, aux particularités sensorielles et aux troubles de la communication, nécessitant un accompagnement spécifique",
-        "C. La gestion émotionnelle est préservée dans tous les cas de TSA",
-        "D. Seules les émotions négatives sont affectées dans le TSA"
+        "C. La gestion émotionnelle est préservée dans les TSA de niveau 1 selon le DSM-5",
+        "D. Les émotions positives sont mieux gérées que les émotions négatives dans le TSA"
       ],
       correct: 1,
       explanation: "Les difficultés de gestion émotionnelle dans le TSA sont plurifactorielles : elles résultent des déficits de la Théorie de l'Esprit (difficulté à comprendre ses propres émotions et celles d'autrui), des particularités sensorielles (hyperréactivité générant stress et anxiété), et des troubles de la communication (incapacité à exprimer verbalement ce qui est ressenti). Un accompagnement spécifique est nécessaire.",
@@ -110,10 +110,10 @@
       id: "psycho_33",
       question: "Selon l'ASHA (2016), quelles sont les trois dimensions majeures de la pragmatique ?",
       options: [
-        "A. La phonologie, la morphologie et la syntaxe",
+        "A. La sémantique, la morphosyntaxe et la phonologie",
         "B. L'usage du langage à des fins sociales, l'adaptation du langage au contexte/interlocuteur, et le respect des règles conversationnelles",
-        "C. La mémoire, l'attention et la perception",
-        "D. La lecture, l'écriture et le calcul"
+        "C. La mémoire de travail, les fonctions exécutives et la planification",
+        "D. Le décodage grapho-phonologique, la compréhension écrite et la production narrative"
       ],
       correct: 1,
       explanation: "Selon l'ASHA (2016), les trois dimensions majeures de la pragmatique sont : (1) l'usage du langage à des fins sociales (saluer, demander, informer, refuser), (2) l'adaptation du langage au contexte et à l'interlocuteur (registre, formalité, ajustements selon l'âge/le statut), et (3) le respect des règles conversationnelles (tours de parole, maintien du thème, réparation des bris de communication).",
@@ -124,10 +124,10 @@
       id: "psycho_34",
       question: "Selon Bullinger, les troubles alimentaires dans le TSA impliquent une désorganisation de la sphère orale. Quelle intervention logopédique est recommandée ?",
       options: [
-        "A. Uniquement une approche médicamenteuse pour stimuler l'appétit",
+        "A. Une approche médicamenteuse combinée à une prise en charge diététique",
         "B. Un travail axé sur le plaisir du goût, la décontraction de la sphère orale, l'exploration sensorielle des aliments, en groupe si possible",
-        "C. L'exclusion systématique des aliments refusés",
-        "D. Une alimentation exclusivement liquide"
+        "C. L'exclusion progressive des aliments provoquant des réactions sensorielles aversives",
+        "D. Une alimentation mixée avec introduction graduelle des textures solides"
       ],
       correct: 1,
       explanation: "Selon le cours, l'intervention logopédique pour les troubles alimentaires dans le TSA vise le plaisir du goût, la décontraction de la sphère orale, l'exploration sensorielle progressive des aliments et le travail en groupe. Il ne s'agit pas d'une approche médicamenteuse exclusive (A), ni d'exclusion des aliments refusés (C), ni de limitation au liquide (D). L'objectif est l'élargissement du répertoire alimentaire.",
@@ -138,10 +138,10 @@
       id: "psycho_35",
       question: "Quelle donnée épidémiologique relative à la concordance entre jumeaux soutient la composante génétique du TSA ?",
       options: [
-        "A. La concordance chez les jumeaux monozygotes est identique à celle des jumeaux dizygotes",
+        "A. La concordance chez les jumeaux monozygotes est d'environ 30% et chez les dizygotes d'environ 10%",
         "B. La concordance est significativement plus élevée chez les jumeaux monozygotes (60-90%) que chez les jumeaux dizygotes (0-30%)",
-        "C. Aucune étude sur les jumeaux n'a été réalisée dans le TSA",
-        "D. La concordance est de 100% chez tous les types de jumeaux"
+        "C. Les études de concordance gémellaire ont été réalisées mais leurs résultats sont contradictoires",
+        "D. La concordance est proche de 80% chez les jumeaux dizygotes et monozygotes"
       ],
       correct: 1,
       explanation: "Les études de concordance chez les jumeaux montrent un taux nettement plus élevé chez les monozygotes (60-90%) par rapport aux dizygotes (0-30%), ce qui constitue un argument fort en faveur d'une composante génétique. Cependant, la concordance n'étant pas de 100% chez les monozygotes, cela confirme l'implication de facteurs environnementaux dans le modèle intégratif.",
@@ -152,10 +152,10 @@
       id: "psycho_36",
       question: "Quel élément permet de différencier un TSA d'un TDAH selon le cours ?",
       options: [
-        "A. Les deux troubles sont identiques et ne peuvent être différenciés",
+        "A. Les deux troubles partagent les mêmes critères diagnostiques mais diffèrent par l'âge d'apparition",
         "B. Le TSA se caractérise par des déficits persistants de la communication sociale et des comportements restreints/répétitifs, tandis que le TDAH se caractérise par un pattern d'inattention et/ou d'hyperactivité-impulsivité",
-        "C. Le TDAH inclut systématiquement des stéréotypies motrices",
-        "D. Le TSA n'implique jamais de troubles de l'attention"
+        "C. Le TDAH inclut dans certains sous-types des stéréotypies motrices et des intérêts restreints",
+        "D. Le TSA implique des troubles attentionnels dans les formes avec déficit intellectuel associé"
       ],
       correct: 1,
       explanation: "Le TSA se distingue du TDAH par la présence de déficits persistants de la communication sociale (critère A du DSM-5) et de comportements restreints/répétitifs (critère B). Le TDAH se définit par un pattern prédominant d'inattention et/ou d'hyperactivité-impulsivité. Ces deux troubles peuvent être comorbides, mais leurs critères diagnostiques sont distincts.",
@@ -166,10 +166,10 @@
       id: "psycho_37",
       question: "Parmi les signes précoces du TSA entre 12 et 24/30 mois, lequel est le plus caractéristique ?",
       options: [
-        "A. La maîtrise parfaite de la lecture",
+        "A. Une hyperlexie avec compréhension préservée",
         "B. L'absence de jeu symbolique, l'absence de pointage déclaratif, et l'écholalie",
-        "C. Une socialisation excessive avec les pairs",
-        "D. Une absence totale de motricité globale"
+        "C. Une préférence pour l'interaction avec les adultes plutôt qu'avec les pairs",
+        "D. Un retard de la motricité globale avec hypotonie axiale"
       ],
       correct: 1,
       explanation: "Entre 12 et 24/30 mois, les signes précoces caractéristiques du TSA incluent : l'absence de jeu symbolique (faire semblant), l'absence de pointage déclaratif (montrer pour partager l'intérêt), l'écholalie (immédiate ou différée), ainsi que le retard de langage et l'absence d'attention conjointe. La socialisation excessive (C) est contraire au tableau clinique du TSA.",
@@ -184,10 +184,10 @@
       id: "geronto_26",
       question: "L'échelle de Katz (ADL) évalue 6 activités de base de la vie quotidienne. Laquelle des propositions suivantes en fait partie ?",
       options: [
-        "A. La capacité à gérer ses finances",
+        "A. La capacité à préparer ses repas",
         "B. La capacité à utiliser le téléphone",
         "C. La capacité à se laver (hygiène corporelle)",
-        "D. La capacité à faire les courses"
+        "D. La capacité à entretenir le domicile"
       ],
       correct: 2,
       explanation: "L'échelle de Katz évalue 6 AVQ de base (ADL) : (1) se laver, (2) s'habiller, (3) aller aux toilettes, (4) se déplacer (transfert lit-fauteuil), (5) continence, (6) alimentation. Les items comme gérer ses finances (A), utiliser le téléphone (B) et faire les courses (D) relèvent de l'échelle de Lawton (AIVQ/IADL), qui évalue les activités instrumentales.",
@@ -198,10 +198,10 @@
       id: "geronto_27",
       question: "L'échelle de Lawton (IADL) évalue les activités instrumentales de la vie quotidienne. Parmi les items suivants, lequel est évalué par l'échelle de Lawton ?",
       options: [
-        "A. La capacité à s'alimenter seul",
-        "B. La capacité à assurer sa continence",
+        "A. La capacité à effectuer les transferts lit-fauteuil",
+        "B. La capacité à se laver et à assurer son hygiène corporelle",
         "C. La capacité à prendre ses médicaments (gestion du traitement)",
-        "D. La capacité à se déplacer du lit au fauteuil"
+        "D. La capacité à monter les escaliers avec une aide technique"
       ],
       correct: 2,
       explanation: "L'échelle de Lawton évalue les AIVQ/IADL (activités instrumentales) dont : utiliser le téléphone, faire les courses, préparer les repas, entretenir le domicile, faire la lessive, utiliser les transports, prendre ses médicaments, gérer son budget. Les items A, B et D font partie de l'échelle de Katz (AVQ de base).",
@@ -212,10 +212,10 @@
       id: "geronto_28",
       question: "À partir de combien de médicaments parle-t-on de polymédication chez la personne âgée ?",
       options: [
-        "A. 2 médicaments",
+        "A. 3 médicaments",
         "B. 5 médicaments",
-        "C. 10 médicaments",
-        "D. 15 médicaments"
+        "C. 8 médicaments",
+        "D. 12 médicaments"
       ],
       correct: 1,
       explanation: "On parle de polymédication à partir de 5 médicaments pris simultanément. La polymédication est un des critères définissant le profil gériatrique. Elle entraîne des risques accrus d'interactions médicamenteuses, d'iatrogénie, de chutes et de confusion. Des molécules comme les benzodiazépines et les anticholinergiques sont particulièrement à risque.",
@@ -226,10 +226,10 @@
       id: "geronto_29",
       question: "Quelle est la prévalence approximative de la dysphagie en maison de repos et chez les personnes âgées hospitalisées ?",
       options: [
-        "A. 5% en maison de repos et 10% à l'hôpital",
+        "A. 15% en maison de repos et 20% à l'hôpital",
         "B. 40-60% en maison de repos et 30-50% chez les personnes âgées hospitalisées",
-        "C. 90% dans les deux contextes",
-        "D. Moins de 1% dans les deux contextes"
+        "C. 70% dans les deux contextes",
+        "D. Environ 10% dans les deux contextes"
       ],
       correct: 1,
       explanation: "La dysphagie a une prévalence élevée chez la personne âgée : environ 40-60% en maison de repos et 30-50% chez les personnes âgées hospitalisées. Elle correspond à la définition d'un syndrome gériatrique car sa prévalence augmente avec l'âge, elle est plurifactorielle et impacte significativement la qualité de vie.",
@@ -240,10 +240,10 @@
       id: "geronto_30",
       question: "Qu'est-ce que la sarcopénie et quel lien entretient-elle avec la fragilité ?",
       options: [
-        "A. Une augmentation de la masse musculaire liée à l'exercice",
+        "A. Une hypertrophie musculaire compensatoire liée à la dénutrition",
         "B. Une perte progressive et généralisée de la masse et de la force musculaires, contribuant directement à la fragilité physique",
-        "C. Une maladie inflammatoire des articulations",
-        "D. Une atrophie cérébrale liée à l'âge"
+        "C. Une pathologie dégénérative du cartilage articulaire",
+        "D. Une raréfaction du tissu osseux avec augmentation du risque fracturaire"
       ],
       correct: 1,
       explanation: "La sarcopénie est une perte progressive et généralisée de la masse et de la force musculaires liée au vieillissement. Elle contribue directement à la fragilité physique (critère « faiblesse » et « lenteur » du phénotype de Fried) et augmente le risque de chutes, de dépendance et de mortalité.",
@@ -254,10 +254,10 @@
       id: "geronto_31",
       question: "Quel marqueur biologique est couramment utilisé pour objectiver une dénutrition chez la personne âgée ?",
       options: [
-        "A. La glycémie à jeun",
+        "A. L'hémoglobine glyquée (HbA1c)",
         "B. L'albuminémie (seuil < 35 g/L)",
-        "C. La créatininémie",
-        "D. La TSH (thyréostimuline)"
+        "C. La clairance de la créatinine (formule CKD-EPI)",
+        "D. La vitamine D (25-OH-D3)"
       ],
       correct: 1,
       explanation: "L'albuminémie est un marqueur biologique clé de la dénutrition : un taux inférieur à 35 g/L signe une dénutrition. La perte de poids (≥5% en 1 mois ou ≥10% en 6 mois) est un critère clinique complémentaire. La glycémie (A) évalue le diabète, la créatinine (C) la fonction rénale, la TSH (D) la fonction thyroïdienne.",
@@ -268,10 +268,10 @@
       id: "geronto_32",
       question: "Quel risque spécifique l'anesthésie présente-t-elle chez le patient gériatrique fragile ?",
       options: [
-        "A. Aucun risque particulier",
+        "A. Un risque comparable à celui de la population adulte non âgée",
         "B. Un risque accru de complications postopératoires : confusion (delirium), déclin fonctionnel, décompensation de comorbidités, et perte d'autonomie prolongée",
-        "C. Une amélioration systématique de l'état fonctionnel",
-        "D. Un risque limité aux patients de plus de 90 ans"
+        "C. Une amélioration transitoire de l'état fonctionnel par l'immobilisation postopératoire",
+        "D. Un risque principalement lié au type d'anesthésie et non au terrain gériatrique"
       ],
       correct: 1,
       explanation: "Chez le patient gériatrique fragile, l'anesthésie comporte un risque accru de complications postopératoires incluant : confusion/delirium, déclin fonctionnel (perte d'autonomie), décompensation de comorbidités, et hospitalisation prolongée. Une EGM préopératoire est recommandée pour anticiper ces risques et adapter la prise en charge périopératoire.",
@@ -282,10 +282,10 @@
       id: "geronto_33",
       question: "Pourquoi le pantoprazole (inhibiteur de la pompe à protons) est-il limité à une durée maximale de 6 mois chez la personne âgée ?",
       options: [
-        "A. Parce qu'il devient inefficace après 6 mois",
+        "A. Parce qu'une résistance pharmacologique se développe après 6 mois d'utilisation continue",
         "B. Pour limiter les risques de polymédication et les effets secondaires à long terme (infections, carences, fractures)",
-        "C. Parce qu'il n'est pas remboursé au-delà de 6 mois",
-        "D. Parce qu'il interagit avec tous les autres médicaments"
+        "C. Parce que les autorités sanitaires recommandent une rotation des IPP chaque semestre",
+        "D. Parce qu'il réduit l'absorption intestinale de la plupart des traitements oraux"
       ],
       correct: 1,
       explanation: "Le pantoprazole et les autres IPP sont limités à 6 mois chez la personne âgée pour réduire la polymédication et prévenir les effets secondaires à long terme : risque accru d'infections (C. difficile, pneumopathies), carences (vitamine B12, magnésium), ostéoporose et fractures. Une réévaluation régulière de l'indication est nécessaire.",
@@ -296,10 +296,10 @@
       id: "geronto_34",
       question: "L'altération de l'état général (AEG) est un motif fréquent d'admission en gériatrie. Que recouvre ce terme ?",
       options: [
-        "A. Un diagnostic médical précis et codifié",
+        "A. Une entité nosologique définie par la classification internationale des maladies",
         "B. Un syndrome aspécifique associant asthénie, anorexie, perte de poids et déclin fonctionnel, souvent révélateur d'une pathologie sous-jacente",
-        "C. Une crise d'angoisse passagère",
-        "D. Une variante normale du vieillissement"
+        "C. Un épisode dépressif caractérisé du sujet âgé",
+        "D. Un processus physiologique lié au ralentissement métabolique du grand âge"
       ],
       correct: 1,
       explanation: "L'AEG (altération de l'état général) est un syndrome aspécifique du sujet âgé associant asthénie, anorexie, perte de poids et déclin fonctionnel. Elle constitue un motif fréquent d'admission et impose une EGM pour identifier la/les pathologie(s) sous-jacente(s) : infection, cancer, dépression, démence, iatrogénie médicamenteuse, etc.",
@@ -310,10 +310,10 @@
       id: "geronto_35",
       question: "Pourquoi le concept de « pré-dépendance » est-il central dans l'identification de la fragilité ?",
       options: [
-        "A. Parce qu'il permet de justifier une institutionnalisation immédiate",
+        "A. Parce qu'il constitue un indicateur fiable du risque de chute à court terme",
         "B. Parce que la fragilité précède la perte d'autonomie — identifier la fragilité, c'est identifier la pré-dépendance avant qu'elle ne devienne irréversible",
-        "C. Parce qu'il confirme l'absence de tout risque fonctionnel",
-        "D. Parce que la pré-dépendance est un critère diagnostique du syndrome démentiel"
+        "C. Parce qu'il confirme que la personne conserve une autonomie suffisante pour le maintien à domicile",
+        "D. Parce que la pré-dépendance est un stade précoce du syndrome confusionnel"
       ],
       correct: 1,
       explanation: "La fragilité précède la perte d'autonomie (dépendance). Identifier la fragilité, c'est donc identifier la « pré-dépendance » à un stade où les interventions sont encore efficaces pour prévenir ou ralentir la transition vers la dépendance irréversible. Ce concept justifie l'importance du dépistage précoce de la fragilité en soins primaires.",
@@ -324,10 +324,10 @@
       id: "geronto_36",
       question: "Quel lien physiopathologique existe-t-il entre BPCO et dysphagie chez la personne âgée ?",
       options: [
-        "A. Aucun lien n'a été documenté",
+        "A. Seul un lien indirect via la dénutrition a été documenté",
         "B. La BPCO altère la coordination respiration-déglutition, favorise les fausses routes, et la fatigue respiratoire aggrave la dénutrition, créant un cercle vicieux avec la fragilité",
-        "C. La BPCO améliore la fonction de déglutition",
-        "D. La dysphagie est une cause directe de BPCO"
+        "C. La BPCO stimule le réflexe de toux, renforçant la protection des voies aériennes",
+        "D. La dysphagie favorise les pneumopathies d'inhalation qui évoluent en BPCO"
       ],
       correct: 1,
       explanation: "La BPCO altère la coordination respiration-déglutition (cycle inspiration-expiration-déglutition), favorisant les fausses routes aux liquides et solides. La fatigue respiratoire réduit la tolérance aux repas, aggravant la dénutrition et la sarcopénie, ce qui crée un cercle vicieux avec la fragilité. L'intervention logopédique est indiquée pour la dysphagie.",
@@ -338,10 +338,10 @@
       id: "geronto_37",
       question: "Les chutes constituent un syndrome gériatrique majeur. Leur origine est :",
       options: [
-        "A. Toujours accidentelle et environnementale",
+        "A. Principalement accidentelle et liée aux obstacles domestiques",
         "B. Plurifactorielle : intrinsèque (troubles de l'équilibre, sarcopénie, hypotension orthostatique, iatrogénie) et extrinsèque (environnement, chaussage, éclairage)",
-        "C. Exclusivement neurologique",
-        "D. Toujours liée à une ostéoporose"
+        "C. Majoritairement liée aux pathologies neurologiques dégénératives",
+        "D. Essentiellement consécutive à une fragilité osseuse avec fracture"
       ],
       correct: 1,
       explanation: "Les chutes chez la personne âgée sont d'origine plurifactorielle, combinant des facteurs intrinsèques (troubles de l'équilibre/marche, sarcopénie, hypotension orthostatique, iatrogénie médicamenteuse, troubles visuels, déclin cognitif) et des facteurs extrinsèques (environnement : obstacles, éclairage, revêtement, chaussage). C'est un syndrome gériatrique car il ne correspond pas à une catégorie de maladie classique.",
@@ -356,10 +356,10 @@
       id: "audio_28",
       question: "Quelle particularité ORL et auditive caractérise le syndrome de Treacher-Collins ?",
       options: [
-        "A. Une surdité de perception progressive isolée",
+        "A. Une surdité de perception bilatérale évolutive associée à des acouphènes",
         "B. Une dysostose mandibulo-faciale avec surdité de transmission par malformation de l'oreille externe et/ou moyenne (microtie, atrésie du CAE, anomalies ossiculaires)",
-        "C. Une surdité centrale par lésion corticale",
-        "D. Une audition normale avec acouphènes"
+        "C. Une atteinte rétrocochléaire avec troubles du traitement auditif central",
+        "D. Une audition subnormale avec hyperacousie et acouphènes bilatéraux"
       ],
       correct: 1,
       explanation: "Le syndrome de Treacher-Collins (ou Franceschetti-Klein) est une dysostose mandibulo-faciale associant une surdité de transmission par malformation de l'oreille externe (microtie, atrésie du conduit auditif externe) et/ou de l'oreille moyenne (anomalies ossiculaires). L'appareillage par BAHA ou vibreur osseux est souvent indiqué.",
@@ -371,9 +371,9 @@
       question: "Quel pourcentage des surdités congénitales d'origine infectieuse est attribuable au cytomégalovirus (CMV) ?",
       options: [
         "A. Le CMV est la première cause infectieuse de surdité congénitale, responsable de 10 à 20% des surdités d'origine infectieuse",
-        "B. Le CMV ne cause jamais de surdité",
-        "C. Le CMV est une cause mineure (<1%)",
-        "D. Le CMV ne cause que des surdités de transmission"
+        "B. Le CMV est une cause rare de surdité, réservée aux formes congénitales sévères",
+        "C. Le CMV représente environ 2 à 5% des surdités congénitales d'origine infectieuse",
+        "D. Le CMV provoque des surdités de transmission par atteinte de l'oreille moyenne"
       ],
       correct: 0,
       explanation: "Le CMV (cytomégalovirus) est la première cause infectieuse de surdité congénitale, responsable de 10 à 20% des surdités d'origine infectieuse. La surdité peut être présente à la naissance ou apparaître plus tardivement (surdité évolutive). Le CMV fait partie des embryopathies au même titre que la rubéole, la toxoplasmose et l'herpès.",
@@ -384,10 +384,10 @@
       id: "audio_30",
       question: "Concernant la presbyacousie, quelle affirmation oriente la pratique clinique logopédique ?",
       options: [
-        "A. L'appareillage doit être retardé le plus possible pour laisser le temps au patient de s'habituer à sa perte",
+        "A. L'appareillage doit être proposé lorsque le patient exprime une gêne fonctionnelle significative",
         "B. Il faut pousser l'appareillage précoce de la presbyacousie pour prévenir l'isolement social, le déclin cognitif et la fragilité chez la personne âgée",
-        "C. La presbyacousie ne nécessite jamais d'appareillage",
-        "D. La presbyacousie est une surdité de transmission"
+        "C. La presbyacousie peut être compensée par des stratégies de communication sans appareillage",
+        "D. La presbyacousie est une surdité mixte à prédominance transmissionnelle"
       ],
       correct: 1,
       explanation: "Il est recommandé de pousser l'appareillage précoce de la presbyacousie (surdité neurosensorielle liée à l'âge) car une perte auditive non appareillée contribue à l'isolement social, peut mimer ou aggraver un déclin cognitif, et aggrave la fragilité gériatrique. La presbyacousie est une surdité de perception (D incorrect), pas de transmission.",
@@ -398,10 +398,10 @@
       id: "audio_31",
       question: "Qu'est-ce que le phénomène de recrutement (recruitment) dans les surdités endocochléaires ?",
       options: [
-        "A. Une perception normale de l'intensité sonore",
+        "A. Une perception réduite de l'intensité sonore à toutes les fréquences",
         "B. Une perception anormalement rapide de la croissance de l'intensité sonore (le seuil est élevé mais l'inconfort est atteint pour une faible augmentation au-dessus du seuil), altérant l'audiométrie vocale",
-        "C. Une récupération spontanée de l'audition",
-        "D. Une amélioration de l'audition dans le bruit"
+        "C. Une fluctuation des seuils auditifs avec récupération partielle entre les épisodes",
+        "D. Une meilleure discrimination de la parole en environnement bruyant qu'en silence"
       ],
       correct: 1,
       explanation: "Le phénomène de recrutement (recruitment) est caractéristique des surdités endocochléaires. Le patient perçoit une croissance anormalement rapide de l'intensité sonore : le seuil d'audition est élevé (surdité), mais une faible augmentation au-dessus du seuil entraîne rapidement une sensation d'inconfort. Ce phénomène altère significativement l'intelligibilité de la parole et complexifie l'appareillage.",
@@ -412,10 +412,10 @@
       id: "audio_32",
       question: "Qu'est-ce qui caractérise l'ANSD (Auditory Neuropathy Spectrum Disorder) ?",
       options: [
-        "A. Une surdité de transmission pure",
+        "A. Une surdité de perception endocochléaire avec recrutement",
         "B. Une dissociation entre les otoémissions acoustiques (OEA) présentes (cellules ciliées externes fonctionnelles) et les potentiels évoqués auditifs (PEA) absents ou très altérés, indiquant une atteinte rétrocochléaire",
-        "C. Une surdité exclusivement unilatérale",
-        "D. Une audition normale avec trouble du traitement auditif central"
+        "C. Une surdité de perception bilatérale symétrique avec atteinte vestibulaire associée",
+        "D. Une surdité de perception légère avec troubles du traitement auditif central"
       ],
       correct: 1,
       explanation: "L'ANSD (neuropathie auditive/désynchronisation auditive) se caractérise par une dissociation entre des OEA présentes (cellules ciliées externes fonctionnelles) et des PEA absents ou très altérés (défaut de synchronisation neurale). L'atteinte est rétrocochléaire (nerf auditif, synapse, ganglion spiral). L'audiométrie tonale peut être normale à profonde, mais la compréhension de la parole est toujours altérée.",
@@ -426,10 +426,10 @@
       id: "audio_33",
       question: "Que signifie l'acronyme CHARGE dans le syndrome CHARGE et quelle est l'atteinte auditive associée ?",
       options: [
-        "A. Uniquement une dysplasie rénale sans atteinte auditive",
+        "A. Une dysplasie rénale et une surdité de perception isolée",
         "B. Colobome, Heart defects, Atrésie des choanes, Retard de croissance/développement, Genital hypoplasia, Ear anomalies — l'atteinte auditive est variable (transmission, perception ou mixte)",
-        "C. Une atteinte auditive exclusivement centrale",
-        "D. Une surdité unilatérale systématique"
+        "C. Une surdité de perception bilatérale profonde congénitale",
+        "D. Une surdité de transmission unilatérale par aplasie du conduit auditif"
       ],
       correct: 1,
       explanation: "L'acronyme CHARGE signifie : Colobome, Heart defects (cardiopathie), Atrésie des choanes, Retard de croissance/développement, Genital hypoplasia, Ear anomalies (anomalies de l'oreille). L'atteinte auditive est variable : surdité de transmission (malformation de l'oreille externe/moyenne), de perception (oreille interne) ou mixte.",
@@ -441,9 +441,9 @@
       question: "Quelle est la différence fondamentale entre l'audiométrie tonale et l'audiométrie vocale ?",
       options: [
         "A. L'audiométrie tonale mesure la perception de sons purs à différentes fréquences ; l'audiométrie vocale mesure la capacité de compréhension de la parole (intelligibilité)",
-        "B. L'audiométrie tonale est réservée aux enfants et l'audiométrie vocale aux adultes",
-        "C. Les deux mesurent exactement la même chose",
-        "D. L'audiométrie vocale remplace systématiquement l'audiométrie tonale"
+        "B. L'audiométrie tonale évalue les fréquences aiguës et l'audiométrie vocale les fréquences graves",
+        "C. Les deux mesures fournissent des informations redondantes sur les seuils auditifs",
+        "D. L'audiométrie vocale permet de déterminer le type de surdité sans audiométrie tonale"
       ],
       correct: 0,
       explanation: "L'audiométrie tonale mesure la perception de sons purs (fréquences de 250 à 4000 Hz, intensités de 0 à 120 dB) pour établir les seuils auditifs en conduction aérienne et osseuse. L'audiométrie vocale mesure la capacité de compréhension de la parole (intelligibilité) en présentant des mots à différentes intensités, reflétant mieux l'impact fonctionnel de la perte auditive.",
@@ -454,10 +454,10 @@
       id: "audio_35",
       question: "Pourquoi les fréquences 500, 1000, 2000 et 4000 Hz sont-elles utilisées pour le calcul de la perte auditive moyenne ?",
       options: [
-        "A. Parce que ce sont les seules fréquences audibles par l'oreille humaine",
+        "A. Parce que ce sont les fréquences correspondant aux sons environnementaux de danger",
         "B. Parce qu'elles correspondent à la bande de fréquences de la parole, essentielle pour la compréhension du langage",
-        "C. Parce que ces fréquences sont les plus faciles à mesurer",
-        "D. Parce que les autres fréquences n'ont aucun intérêt clinique"
+        "C. Parce que ces fréquences présentent la meilleure fiabilité test-retest",
+        "D. Parce que les fréquences inférieures à 250 Hz et supérieures à 8000 Hz sont inaudibles chez la majorité des patients"
       ],
       correct: 1,
       explanation: "Ces quatre fréquences (500, 1000, 2000, 4000 Hz) constituent la bande de fréquences de la parole, c'est-à-dire les fréquences les plus importantes pour la perception et la compréhension du langage oral. Le calcul de la perte moyenne sur ces fréquences reflète l'impact fonctionnel de la surdité sur la communication verbale.",
@@ -468,10 +468,10 @@
       id: "audio_36",
       question: "Combien de gènes sont actuellement identifiés comme pouvant causer une surdité non syndromique ?",
       options: [
-        "A. Moins de 10 gènes",
+        "A. Moins de 30 gènes",
         "B. Plus de 200 gènes",
-        "C. Exactement 50 gènes",
-        "D. Un seul gène (GJB2)"
+        "C. Environ 100 gènes",
+        "D. Deux gènes principaux (GJB2 et SLC26A4)"
       ],
       correct: 1,
       explanation: "Plus de 200 gènes ont été identifiés comme pouvant causer une surdité non syndromique (isolée). La mutation GJB2 (Connexine 26) est la plus fréquente (15-40% des surdités génétiques non syndromiques), mais de nombreux autres gènes sont impliqués, reflétant la grande hétérogénéité génétique des surdités.",
@@ -482,10 +482,10 @@
       id: "audio_37",
       question: "Quelles sont les différences cliniques entre les syndromes de Usher de type II et de type III ?",
       options: [
-        "A. Les types II et III sont identiques au type I",
+        "A. Les types II et III partagent la même sévérité auditive que le type I mais diffèrent par l'atteinte vestibulaire",
         "B. Le type II : surdité congénitale modérée à sévère (stable), rétinite pigmentaire à l'adolescence/jeune adulte, pas de trouble vestibulaire. Le type III : surdité progressive postlinguale, rétinite pigmentaire variable, troubles vestibulaires variables",
-        "C. Le type II n'implique aucune atteinte auditive",
-        "D. Le type III est le seul à présenter une rétinite pigmentaire"
+        "C. Le type II implique une surdité de transmission avec audition fluctuante",
+        "D. Le type III présente une rétinite pigmentaire congénitale, contrairement aux types I et II"
       ],
       correct: 1,
       explanation: "Le syndrome de Usher de type II présente une surdité congénitale modérée à sévère stable (contrairement au type I qui est profonde), une rétinite pigmentaire apparaissant à l'adolescence ou chez le jeune adulte, et pas de trouble vestibulaire. Le type III présente une surdité progressive postlinguale, une rétinite pigmentaire d'apparition variable, et des troubles vestibulaires variables. Le type I est le plus sévère.",
@@ -496,10 +496,10 @@
       id: "audio_38",
       question: "Quelle est la particularité d'une surdité pétrilinguale (survenant entre 1 et 3 ans) concernant le développement du langage ?",
       options: [
-        "A. Elle n'a aucun impact sur le langage car l'enfant a déjà acquis la parole",
+        "A. Elle a un impact modéré car l'enfant conserve les acquisitions lexicales antérieures",
         "B. L'enfant a déjà été exposé au langage et a commencé à développer le babillage et les premiers mots, mais le langage est encore en pleine acquisition — le risque de régression du langage est significatif sans appareillage rapide",
-        "C. Elle entraîne systématiquement une perte définitive et totale du langage",
-        "D. Elle améliore les capacités de lecture labiale"
+        "C. Elle entraîne une régression du langage dans les surdités de perception profondes",
+        "D. Elle stimule le développement compensatoire de la perception visuelle du langage"
       ],
       correct: 1,
       explanation: "La surdité pétrilinguale (1-3 ans) survient pendant la période critique d'acquisition du langage. L'enfant a déjà été exposé au langage (babillage, premiers mots), mais l'acquisition est encore en cours. Le risque de régression du langage est significatif si l'appareillage n'est pas rapide. Une intervention précoce multidisciplinaire (ORL, logopédie, audioprothèse) est cruciale.",
@@ -510,10 +510,10 @@
       id: "audio_39",
       question: "Quel pourcentage des surdités reste de cause inconnue malgré les investigations étiologiques ?",
       options: [
-        "A. 5%",
-        "B. 10%",
+        "A. 10%",
+        "B. 20%",
         "C. 25%",
-        "D. 50%"
+        "D. 40%"
       ],
       correct: 2,
       explanation: "Environ 25% des surdités restent de cause inconnue malgré un bilan étiologique complet (génétique, infectieux, imagerie). Rappelons que 60% sont d'origine génétique, et les 15% restants correspondent aux causes acquises (infectieuses, traumatiques, médicamenteuses, tumorales). Le bilan étiologique reste indispensable pour le pronostic et le conseil génétique.",
@@ -1172,10 +1172,10 @@
         {
           question: "Quels signes chez Amine pourraient être attribuables aux otites séromuqueuses et non à un TSA ?",
           options: [
-            "A. L'alignement des voitures et l'intolérance au changement",
+            "A. L'alignement répétitif d'objets et l'intolérance à la modification des routines",
             "B. Le retard de langage et l'absence de réponse au prénom (inconstante)",
-            "C. L'absence de pointage déclaratif",
-            "D. Les crises lors des changements de routine"
+            "C. L'absence de pointage protodéclaratif et d'attention conjointe",
+            "D. Les crises et l'agitation lors de modifications de l'environnement familier"
           ],
           correct: 1,
           explanation: "L'otite séromuqueuse chronique entraîne une perte auditive fluctuante de type transmission (max 50 dB) qui a des conséquences directes sur le développement du langage : retard des représentations phonologiques, arrêt de l'évolution du langage, absence de perception des conversations parallèles. Par ailleurs, l'enfant réagit aux sons et à la voix, mais de manière inconstante (réponse au prénom fluctuante). L'alignement stéréotypé (A), l'absence de pointage (C) et l'intolérance au changement (D) sont davantage évocateurs d'un TSA.",
@@ -1184,10 +1184,10 @@
         {
           question: "L'absence de pointage déclaratif, l'alignement stéréotypé des voitures et l'intolérance au changement chez Amine évoquent :",
           options: [
-            "A. Des conséquences normales d'une otite séromuqueuse",
+            "A. Des conséquences typiques d'une privation auditive fluctuante liée aux otites",
             "B. Des signes évoquant un possible TSA, car ces comportements ne sont pas expliqués par la perte auditive de transmission",
-            "C. Un trouble du langage isolé sans autre particularité",
-            "D. Un trouble de l'attachement réactionnel"
+            "C. Un trouble développemental du langage sans particularité comportementale associée",
+            "D. Un trouble de la relation et de l'attachement"
           ],
           correct: 1,
           explanation: "L'absence de pointage déclaratif (critère A du DSM-5), l'alignement stéréotypé des voitures (intérêts restreints, critère B) et l'intolérance au changement (sameness, critère B) sont des signes cardinaux du TSA qui NE sont PAS expliqués par une perte auditive de transmission de 35 dB. Ces comportements justifient une évaluation diagnostique approfondie incluant un ADOS-2.",
@@ -1196,10 +1196,10 @@
         {
           question: "Sachant que les altérations auditives peuvent persister jusqu'à 3 mois après la résolution d'une otite séromuqueuse, quelle attitude clinique est la plus appropriée ?",
           options: [
-            "A. Attendre la résolution complète de la perte auditive avant toute intervention",
+            "A. Attendre la stabilisation de la perte auditive avant d'initier un suivi logopédique",
             "B. Poursuivre le bilan diagnostique TSA tout en maintenant une stimulation langagière adaptée, l'otite séromuqueuse ne contre-indiquant PAS l'intervention logopédique",
-            "C. Traiter exclusivement les otites et ignorer les autres signes",
-            "D. Hospitaliser pour pose d'aérateurs tympaniques en urgence"
+            "C. Traiter les otites séromuqueuses en priorité et réévaluer les signes comportementaux après normalisation auditive",
+            "D. Proposer une pose d'aérateurs tympaniques et surseoir au bilan diagnostique TSA"
           ],
           correct: 1,
           explanation: "L'otite séromuqueuse NE contre-indique PAS l'intervention logopédique — au contraire, l'enfant a besoin de stimulation langagière pendant cette période. Il est essentiel de poursuivre le bilan diagnostique TSA en parallèle (ADOS-2, bilan sensoriel, évaluation développementale) car les signes comportementaux (pointage, stéréotypies, intolérance au changement) persistent indépendamment de la fluctuation auditive.",
@@ -1222,7 +1222,7 @@
             "A. 1/5 — Robuste",
             "B. 2/5 — Pré-fragile",
             "C. 3/5 — Fragile",
-            "D. 4/5 — Fragile"
+            "D. 5/5 — Fragile"
           ],
           correct: 2,
           explanation: "Mme Chevalier présente 3 critères de Fried : (1) perte de poids de 3 kg en 1 an (proche du seuil mais combinée à l'albumine basse), (2) fatigue auto-rapportée, (3) sédentarité (arrêt de la chorale et des activités). La lenteur et la faiblesse ne sont pas documentées, mais ≥3 critères suffisent au diagnostic de fragilité. Score 3/5 = fragile.",
@@ -1231,10 +1231,10 @@
         {
           question: "Quel lien peut-on établir entre la presbyacousie non appareillée (58 dB) et les chutes à répétition de Mme Chevalier ?",
           options: [
-            "A. Aucun lien : les chutes sont exclusivement d'origine mécanique",
+            "A. Les chutes sont principalement d'origine mécanique et posturale, sans lien avec la surdité",
             "B. La perte auditive neurosensorielle bilatérale altère le système vestibulaire et les repères spatiaux (30% des surdités ont une atteinte vestibulaire), contribuant au risque de chute, tandis que l'isolement auditif aggrave la fragilité",
-            "C. La presbyacousie améliore l'équilibre",
-            "D. Les chutes sont uniquement dues à l'AVC ancien"
+            "C. La presbyacousie stimule la proprioception et améliore l'équilibre compensatoire",
+            "D. Les chutes sont essentiellement liées aux séquelles vestibulaires de l'AVC ancien"
           ],
           correct: 1,
           explanation: "La presbyacousie non appareillée altère potentiellement le système vestibulaire (30% des surdités de perception ont une atteinte vestibulaire partielle). La perte d'informations auditives spatiales (repères sonores environnementaux) contribue au risque de chute. De plus, l'isolement social induit par la surdité non appareillée aggrave la fragilité physique, créant un cercle vicieux. Les chutes sont plurifactorielles (B) et non exclusivement mécaniques (A) ou liées à l'AVC (D).",
@@ -1243,10 +1243,10 @@
         {
           question: "Quel biais diagnostique le MMSE à 24/30 peut-il refléter chez Mme Chevalier ?",
           options: [
-            "A. Un score normal pour l'âge, sans signification clinique",
+            "A. Un score dans la norme pour une personne de 84 ans, sans signification clinique particulière",
             "B. Une possible sous-estimation des capacités cognitives réelles due à la perte auditive non appareillée (items mal entendus = réponses erronées), nécessitant une évaluation neuropsychologique adaptée APRÈS appareillage",
-            "C. Un diagnostic certain de démence de type Alzheimer",
-            "D. Un trouble psychiatrique sévère"
+            "C. Un indicateur fiable de démence de type Alzheimer au stade modéré",
+            "D. Un syndrome dépressif sévère avec ralentissement psychomoteur"
           ],
           correct: 1,
           explanation: "Le MMSE à 24/30 peut refléter une sous-estimation des capacités cognitives réelles de Mme Chevalier : certains items peuvent être échoués non par déficit cognitif mais par mauvaise perception auditive des consignes (58 dB de perte non appareillée). Une évaluation neuropsychologique adaptée APRÈS appareillage est indispensable pour distinguer un véritable déclin cognitif d'une pseudo-démence par privation sensorielle. L'âgisme pourrait conduire à un diagnostic hâtif de démence (C).",
@@ -1269,10 +1269,10 @@
         {
           question: "Pourquoi l'ossification cochléaire débutante chez Inès constitue-t-elle une URGENCE thérapeutique ?",
           options: [
-            "A. Parce que l'ossification améliore l'audition et il faut en profiter",
+            "A. Parce que l'ossification stabilise la cochlée et facilite l'insertion du porte-électrodes",
             "B. Parce que l'ossification progressive de la cochlée peut rendre l'implantation cochléaire impossible ou moins efficace si elle est trop avancée",
-            "C. Parce que l'ossification nécessite une chirurgie de l'oreille moyenne",
-            "D. Parce qu'il faut attendre que l'ossification soit complète avant d'implanter"
+            "C. Parce que l'ossification requiert une mastoïdectomie préalable à l'implantation",
+            "D. Parce que l'implantation cochléaire est plus efficace une fois l'ossification stabilisée"
           ],
           correct: 1,
           explanation: "L'ossification cochléaire post-méningite (labyrinthite ossifiante) progresse rapidement et peut obstruer la cochlée, rendant l'insertion du porte-électrodes de l'implant cochléaire difficile voire impossible. C'est une URGENCE chirurgicale : il faut implanter AVANT que l'ossification ne devienne trop étendue. Les résultats de l'IC post-méningite sont mitigés, d'où l'importance de la précocité.",
@@ -1281,10 +1281,10 @@
         {
           question: "Inès avait 3 ans et demi lors de la méningite et avait déjà développé du langage (babillage, 50 mots, début de phrases). De quel type de surdité s'agit-il selon l'âge de survenue ?",
           options: [
-            "A. Surdité prélinguale",
+            "A. Surdité prélinguale congénitale",
             "B. Surdité pétrilinguale — l'enfant a déjà été exposé au langage, le langage était en pleine acquisition, le risque de régression est majeur sans IC rapide",
-            "C. Surdité postlinguale complète",
-            "D. Surdité tardive de l'adulte"
+            "C. Surdité postlinguale précoce",
+            "D. Surdité postlinguale tardive de l'enfance"
           ],
           correct: 1,
           explanation: "La surdité d'Inès est pétrilinguale (entre 1 et 3-4 ans). Elle avait déjà développé du babillage et environ 50 mots avec début de phrases, ce qui signifie qu'elle a été exposée au langage. Le risque de régression du langage est majeur sans implantation cochléaire rapide. Une prise en charge logopédique intensive post-IC est indispensable pour réactiver et développer les acquis langagiers.",
@@ -1326,10 +1326,10 @@
         {
           question: "Quelle est la particularité clinique du syndrome de Usher de type II par rapport au type I concernant l'audition et l'équilibre ?",
           options: [
-            "A. Le type II présente une surdité profonde congénitale avec troubles vestibulaires sévères",
+            "A. Le type II présente une surdité de perception progressive avec troubles vestibulaires modérés",
             "B. Le type II présente une surdité congénitale modérée à sévère STABLE, SANS trouble vestibulaire, avec rétinite pigmentaire d'apparition plus tardive (adolescence/jeune adulte)",
-            "C. Le type II ne présente aucune atteinte auditive",
-            "D. Le type II présente une surdité de transmission exclusive"
+            "C. Le type II présente une atteinte auditive fluctuante avec épisodes de récupération",
+            "D. Le type II présente une surdité de transmission par atteinte ossiculaire associée"
           ],
           correct: 1,
           explanation: "Le syndrome de Usher de type II se caractérise par une surdité congénitale modérée à sévère STABLE (non progressive), SANS trouble vestibulaire (pas de retard de marche, bon équilibre), avec une rétinite pigmentaire apparaissant à l'adolescence ou chez le jeune adulte (vision nocturne, réduction du champ visuel). Le type I présente une surdité profonde AVEC troubles vestibulaires.",
@@ -1338,10 +1338,10 @@
         {
           question: "Quel enjeu spécifique la rétinite pigmentaire du syndrome de Usher de type II pose-t-elle pour la rééducation logopédique à long terme ?",
           options: [
-            "A. Aucun enjeu particulier : la vision n'est pas nécessaire à la communication",
+            "A. La communication reste possible par les canaux auditifs, la vision n'étant pas indispensable",
             "B. La perte visuelle progressive impose d'anticiper la transition vers des moyens de communication non visuels (tactiles, auditifs purs) avant que la vision ne soit trop dégradée, tout en optimisant au maximum l'audition par l'appareillage",
-            "C. La rétinite impose un apprentissage exclusif de la langue des signes en bas âge",
-            "D. La rétinite contre-indique l'implant cochléaire"
+            "C. La rétinite impose l'apprentissage de la langue des signes française comme mode de communication principal",
+            "D. La rétinite pigmentaire limite les bénéfices de l'appareillage auditif conventionnel"
           ],
           correct: 1,
           explanation: "Dans le syndrome de Usher, la double atteinte auditive et visuelle (surdi-cécité évolutive) impose une anticipation de la perte visuelle progressive. Il faut optimiser l'audition au maximum (appareillage performant, éventuellement IC si la perte évolue), tout en introduisant PROGRESSIVEMENT des supports tactiles (LPC tactile, langue des signes tactile) pour préparer la transition quand la vision ne suffira plus. La LSFB visuelle reste utile tant que la vision le permet.",

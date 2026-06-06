@@ -5,10 +5,10 @@ window.APP_DATA = {
         id: "psycho_01",
         question: "Selon le DSM-5, le Trouble du Spectre de l'Autisme (TSA) est classé parmi :",
         options: [
-          "A. Les troubles de la personnalité",
+          "A. Les troubles disruptifs, du contrôle des impulsions et des conduites",
           "B. Les troubles neurodéveloppementaux",
-          "C. Les troubles anxieux",
-          "D. Les troubles psychotiques"
+          "C. Les troubles liés à des traumatismes ou à des facteurs de stress",
+          "D. Les troubles à symptomatologie somatique et apparentés"
         ],
         correct: 1,
         explanation: "Le DSM-5 (2015) classe le TSA parmi les troubles neurodéveloppementaux, affectant les domaines sensoriel, communicationnel et cognitif. Les troubles de la personnalité (réponse A), anxieux (réponse C) et psychotiques (réponse D) constituent des catégories diagnostiques distinctes sans lien avec la classification nosographique du TSA.",
@@ -20,9 +20,9 @@ window.APP_DATA = {
         question: "Quels étaient les termes utilisés dans le DSM-IV pour désigner ce que le DSM-5 regroupe aujourd'hui sous l'appellation unique de TSA ?",
         options: [
           "A. Troubles envahissants du développement",
-          "B. Troubles de l'attachement réactionnel",
-          "C. Troubles de la communication sociale",
-          "D. Troubles désintégratifs de l'enfance"
+          "B. Troubles de l'interaction sociale réciproque",
+          "C. Troubles du développement intellectuel et langagier",
+          "D. Troubles du spectre autistique infantile"
         ],
         correct: 0,
         explanation: "Le DSM-IV utilisait le terme « troubles envahissants du développement » (TED) qui englobait l'autisme, le syndrome d'Asperger, le TED non spécifié et le trouble désintégratif de l'enfance. Le DSM-5 les fusionne sous l'appellation unique TSA. Les réponses B, C et D ne correspondent pas à la terminologie antérieure du DSM-IV pour cet ensemble nosographique.",
@@ -33,10 +33,10 @@ window.APP_DATA = {
         id: "psycho_03",
         question: "Parmi les propositions suivantes concernant le critère A du DSM-5 pour le TSA, laquelle est EXACTE ?",
         options: [
-          "A. Le critère A exige la présence d'au moins 2 des 3 sous-critères relatifs aux déficits persistants de la communication et des interactions sociales",
+          "A. Le critère A exige la présence d'au moins 2 des 4 sous-critères relatifs aux déficits persistants de la communication et des interactions sociales",
           "B. Le critère A exige la présence des 3 sous-critères : réciprocité socio-émotionnelle, communication non verbale, et développement/maintien des relations",
-          "C. Le critère A concerne uniquement les comportements répétitifs et stéréotypés",
-          "D. Le critère A exige la présence d'au moins 1 des 3 sous-critères"
+          "C. Le critère A concerne les comportements répétitifs et stéréotypés",
+          "D. Le critère A exige la présence d'au moins 3 des 4 sous-critères"
         ],
         correct: 1,
         explanation: "Le critère A du DSM-5 exige la présence des 3 sous-critères : (1) déficits de réciprocité socio-émotionnelle, (2) déficits des comportements de communication non verbale, (3) déficits du développement et du maintien des relations. Les 3 doivent être présents, ce qui rend les réponses A et D incorrectes. Le critère B (et non le critère A) concerne les comportements répétitifs (réponse C).",
@@ -47,10 +47,10 @@ window.APP_DATA = {
         id: "psycho_04",
         question: "Concernant le critère B du DSM-5 pour le TSA, combien de sous-critères doivent être présents au minimum ?",
         options: [
-          "A. Au moins 1 sur 4",
+          "A. Au moins 3 sur 5",
           "B. Au moins 2 sur 4",
-          "C. Au moins 3 sur 4",
-          "D. Les 4 sous-critères"
+          "C. Au moins 1 sur 3",
+          "D. Les 5 sous-critères"
         ],
         correct: 1,
         explanation: "Le critère B du DSM-5 concerne les comportements, intérêts et activités restreints et répétitifs. Il exige la présence d'au moins 2 des 4 sous-critères suivants : (1) mouvements/parole stéréotypés, (2) intolérance au changement, (3) intérêts restreints, (4) hyper/hypo-réactivité sensorielle. Les réponses A (1 seul), C (3) et D (les 4) ne respectent pas le seuil diagnostique du DSM-5.",
@@ -61,10 +61,10 @@ window.APP_DATA = {
         id: "psycho_05",
         question: "Selon les données épidémiologiques actuelles, la prévalence du TSA est estimée à environ :",
         options: [
-          "A. 1/1 000 enfants",
+          "A. 1/150 enfants",
           "B. 1/100 enfants",
-          "C. 1/10 000 enfants",
-          "D. 1/500 enfants"
+          "C. 1/250 enfants",
+          "D. 1/50 enfants"
         ],
         correct: 1,
         explanation: "La prévalence du TSA est estimée à environ 1/100 enfants selon les données épidémiologiques actuelles, avec un sex-ratio de 3-4 garçons pour 1 fille. Les autres ratios (1/1 000, 1/10 000, 1/500) sous-estiment ou surestiment significativement la prévalence réelle documentée dans la littérature scientifique.",
@@ -76,9 +76,9 @@ window.APP_DATA = {
         question: "Parmi les signes précoces du TSA entre 6 et 12 mois, on retrouve :",
         options: [
           "A. L'absence de babillage et l'évitement du regard",
-          "B. La marche sur la pointe des pieds et le langage idiosyncrasique",
-          "C. Le retard de langage et l'absence de jeu symbolique",
-          "D. L'écholalie immédiate et les crises de colère"
+          "B. Le retard de langage et le langage idiosyncrasique",
+          "C. Les stéréotypies motrices et l'absence de jeu symbolique",
+          "D. L'absence de pointage et les crises de colère"
         ],
         correct: 0,
         explanation: "Entre 6 et 12 mois, les signes précoces incluent l'absence de dialogue tonique, l'hypo/hypertonie, l'évitement du regard, l'absence de babillage, une expression sérieuse sans mimiques faciales. La marche sur la pointe des pieds (B) et l'écholalie (D) apparaissent plus tardivement. Le retard de langage et l'absence de jeu symbolique (C) sont typiques de la période 12-24/30 mois.",
@@ -89,10 +89,10 @@ window.APP_DATA = {
         id: "psycho_07",
         question: "Dans le DSM-5, l'ancien syndrome d'Asperger est désormais désigné comme :",
         options: [
-          "A. TSA de niveau 1",
+          "A. TSA avec atteinte légère de la communication sociale",
           "B. TSA sans déficits intellectuel et de langage",
-          "C. Trouble de la communication sociale (pragmatique)",
-          "D. TSA avec déficits multiples"
+          "C. Trouble de l'interaction sociale sans déficit cognitif",
+          "D. TSA avec trouble du langage pragmatique"
         ],
         correct: 1,
         explanation: "L'ancien syndrome d'Asperger, caractérisé par l'absence de retard de langage et l'absence de déficit intellectuel, est désormais intégré dans le DSM-5 sous l'appellation « TSA sans déficits intellectuel et de langage ». Le trouble de la communication sociale (pragmatique) (C) est une catégorie distincte dans le DSM-5. Le TSA de niveau 1 (A) fait référence à la sévérité, non à l'ancien diagnostic d'Asperger.",
@@ -104,9 +104,9 @@ window.APP_DATA = {
         question: "Qu'est-ce que la théorie de la cohérence centrale de Frith (1989) appliquée au TSA ?",
         options: [
           "A. Une difficulté à intégrer les informations globales avec une analyse fine des détails",
-          "B. Une incapacité totale à traiter les informations sensorielles",
-          "C. Une difficulté spécifique à comprendre les métaphores et l'humour",
-          "D. Un trouble de l'attention sélective uniquement"
+          "B. Une difficulté à traiter les stimuli auditifs complexes",
+          "C. Une difficulté à décoder les intentions et les croyances d'autrui",
+          "D. Un déficit de la planification et de la flexibilité cognitive"
         ],
         correct: 0,
         explanation: "La théorie de la cohérence centrale de Frith (1989) décrit une difficulté chez les personnes avec TSA à intégrer les informations globales (voir l'ensemble) tout en présentant une analyse fine et détaillée des éléments isolés. Il ne s'agit pas d'une incapacité totale à traiter les informations sensorielles (B), d'une difficulté limitée aux métaphores (C), ni d'un simple trouble attentionnel (D).",
@@ -117,10 +117,10 @@ window.APP_DATA = {
         id: "psycho_09",
         question: "Selon Sanz-Cervera et al. (2015), quelle relation existe-t-il entre les dysfonctionnements sensoriels et le TSA ?",
         options: [
-          "A. Aucune corrélation n'a été démontrée",
+          "A. Une corrélation faible et non significative a été rapportée",
           "B. Une corrélation entre la sévérité des dysfonctionnements sensoriels et la sévérité du TSA",
-          "C. Les dysfonctionnements sensoriels ne concernent que le système auditif",
-          "D. Les dysfonctionnements sensoriels disparaissent à l'âge adulte"
+          "C. Les dysfonctionnements sensoriels concernent principalement le système auditif et visuel",
+          "D. Les dysfonctionnements sensoriels s'atténuent significativement à l'âge adulte"
         ],
         correct: 1,
         explanation: "Sanz-Cervera et al. (2015) ont démontré une corrélation significative entre la sévérité des dysfonctionnements sensoriels et la sévérité du TSA. Les dysfonctionnements ne se limitent pas au système auditif (C) mais concernent les 7 systèmes sensoriels, et ne disparaissent pas à l'âge adulte (D). La réponse A est contredite par les données probantes.",
@@ -131,10 +131,10 @@ window.APP_DATA = {
         id: "psycho_10",
         question: "Parmi les 7 systèmes sensoriels décrits dans le cours, lesquels sont souvent moins connus mais essentiels dans l'évaluation du TSA ?",
         options: [
-          "A. Les systèmes auditif et visuel uniquement",
+          "A. Les systèmes auditif et visuel",
           "B. Les systèmes proprioceptif et vestibulaire",
-          "C. Les systèmes olfactif et gustatif uniquement",
-          "D. Les systèmes tactile et auditif uniquement"
+          "C. Les systèmes olfactif et gustatif",
+          "D. Les systèmes tactile et auditif"
         ],
         correct: 1,
         explanation: "Les 7 systèmes sensoriels incluent l'auditif, le visuel, le tactile, le gustatif, l'olfactif, le proprioceptif et le vestibulaire. Les systèmes proprioceptif (faiblesse du tonus, motricité atypique, mauvais schéma corporel) et vestibulaire (évitement ou recherche de stimulation : balancements, tournoiements) sont souvent moins connus mais essentiels, les stéréotypies pouvant notamment stimuler le système vestibulaire.",
@@ -146,9 +146,9 @@ window.APP_DATA = {
         question: "Selon Grandin (2000), comment les sensations auditives, tactiles et visuelles sont-elles vécues par certaines personnes avec TSA ?",
         options: [
           "A. Comme une souffrance entraînant un retrait du monde extérieur",
-          "B. Comme une expérience neutre sans impact sur le comportement",
-          "C. Comme une source de plaisir favorisant l'exploration",
-          "D. Comme un déficit sensoriel complet (absence de perception)"
+          "B. Comme une expérience atténuée conduisant à une recherche de stimulations intenses",
+          "C. Comme une source d'apaisement favorisant les comportements ritualisés",
+          "D. Comme une perception fragmentée touchant une modalité sensorielle à la fois"
         ],
         correct: 0,
         explanation: "Grandin (2000) décrit que chez certaines personnes avec TSA, les sensations auditives, tactiles et visuelles sont vécues comme une souffrance, ce qui entraîne un retrait du monde extérieur. Cette hyperesthésie douloureuse explique en partie les comportements de repli observés. Les réponses B et C contredisent cette description, et la réponse D est incorrecte car il ne s'agit pas d'une absence de perception mais d'une perception exacerbée et douloureuse.",
@@ -159,10 +159,10 @@ window.APP_DATA = {
         id: "psycho_12",
         question: "Concernant les troubles alimentaires dans le TSA, quelle description est correcte selon le cours ?",
         options: [
-          "A. Une absence totale d'intérêt pour la nourriture chez tous les enfants TSA",
+          "A. Une indifférence généralisée à la nourriture observée chez la majorité des enfants avec TSA",
           "B. Une désorganisation de la sphère orale (Bullinger) avec sélectivité alimentaire et néophobie",
-          "C. Une suralimentation systématique liée à l'absence de sensation de satiété",
-          "D. Des troubles alimentaires exclusivement d'origine organique"
+          "C. Une hyperphagie fréquente liée à un déficit de reconnaissance des signaux de satiété",
+          "D. Des troubles alimentaires d'origine principalement métabolique et gastro-intestinale"
         ],
         correct: 1,
         explanation: "Selon le cours, les troubles alimentaires dans le TSA incluent une désorganisation de la sphère orale (décrite par Bullinger), une incorporation insatiable, des difficultés de coordination, des irritations tactiles, une alimentation sélective et une néophobie. L'intervention logopédique vise le plaisir du goût, la décontraction et le travail en groupe.",
@@ -173,10 +173,10 @@ window.APP_DATA = {
         id: "psycho_13",
         question: "Selon Piaget, à quel type de jeu les enfants avec TSA ont-ils principalement recours ?",
         options: [
-          "A. Le jeu symbolique (faire semblant)",
-          "B. Le jeu de règles (compétition)",
+          "A. Le jeu fonctionnel (manipulations répétitives d'objets)",
+          "B. Le jeu de règles simples (puzzles, lotos)",
           "C. Le jeu sensori-moteur, pauvre et stéréotypé",
-          "D. Le jeu coopératif avec leurs pairs"
+          "D. Le jeu d'imitation différée avec les pairs"
         ],
         correct: 2,
         explanation: "Selon les catégories de Piaget, les enfants avec TSA recourent principalement au jeu sensori-moteur, qui est pauvre et stéréotypé. Ils rejettent les jeux de hasard, préfèrent la répétition, et adorent l'« ilinx » (vertige, balancements, tournoiements selon Caillois). Le jeu symbolique (A) est déficitaire, le jeu de règles (B) est évité, et le jeu est majoritairement solitaire (D incorrect).",
@@ -202,9 +202,9 @@ window.APP_DATA = {
         question: "Quelle affirmation concernant les profils linguistiques dans le TSA est EXACTE ?",
         options: [
           "A. La phonologie et la syntaxe sont généralement les domaines les plus sévèrement atteints",
-          "B. Les personnes TSA présentent un profil linguistique uniforme",
+          "B. Les personnes TSA présentent une évolution langagière similaire d'un individu à l'autre",
           "C. Les profils varient de totalement fonctionnels à inexistants, la phonologie et la syntaxe étant souvent moins affectées",
-          "D. Toutes les personnes TSA ont un langage totalement fonctionnel à l'âge adulte"
+          "D. La majorité des personnes TSA développent un langage totalement fonctionnel à l'âge adulte"
         ],
         correct: 2,
         explanation: "Les profils linguistiques dans le TSA varient considérablement, allant de totalement fonctionnels à inexistants. La phonologie et la syntaxe sont généralement moins affectées (parfois bonne articulation), tandis que les déficits touchent principalement la sémantique (compréhension verbale pauvre, langage idiosyncrasique) et la pragmatique (mauvais usage social du langage, incompréhension des métaphores/humour).",
@@ -215,10 +215,10 @@ window.APP_DATA = {
         id: "psycho_16",
         question: "Qu'est-ce que l'écholalie dans le TSA et comment se distingue-t-elle de celle observée dans le trouble du langage (SLI) ?",
         options: [
-          "A. L'écholalie est toujours communicative dans le TSA",
+          "A. L'écholalie dans le TSA a principalement une fonction communicative",
           "B. Dans le SLI, l'écholalie est communicative ; dans le TSA, elle peut être non communicative (auto-stimulation)",
-          "C. L'écholalie n'existe que dans le TSA",
-          "D. Dans le TSA, l'écholalie est exclusivement immédiate"
+          "C. L'écholalie est un phénomène propre au TSA absent des autres troubles du développement",
+          "D. Dans le TSA, l'écholalie se manifeste surtout sous forme différée"
         ],
         correct: 1,
         explanation: "Selon l'article de Simms & Jin (2015), l'écholalie dans le SLI (trouble du langage) est communicative, tandis que dans le TSA, elle peut être non communicative et servir d'auto-stimulation. L'écholalie dans le TSA peut être immédiate ou différée (D incorrect), elle n'est pas toujours communicative (A incorrect), et elle existe dans d'autres troubles que le TSA (C incorrect).",
@@ -229,10 +229,10 @@ window.APP_DATA = {
         id: "psycho_17",
         question: "La Théorie de l'Esprit (ToM), évaluée notamment par le test de Sally-Anne, renvoie à :",
         options: [
-          "A. La capacité à résoudre des problèmes logiques complexes",
+          "A. La capacité à résoudre des problèmes de raisonnement formel",
           "B. La capacité cognitive à inférer les états affectifs et cognitifs d'autrui",
-          "C. La capacité à mémoriser des informations sociales",
-          "D. La capacité à imiter les expressions faciales"
+          "C. La capacité à encoder et récupérer des informations en contexte social",
+          "D. La capacité à reproduire les expressions émotionnelles faciales"
         ],
         correct: 1,
         explanation: "La Théorie de l'Esprit (ToM) est la capacité cognitive à inférer les états affectifs et cognitifs d'autrui à partir de leurs expressions, attitudes et connaissances. Le test de Sally-Anne, normalement acquis vers 4 ans, est déficitaire dans le TSA. Un lien existe entre le développement du langage et l'acquisition de la ToM. Il ne s'agit pas de résolution logique (A), de mémoire sociale (C), ni d'imitation faciale (D).",
@@ -243,10 +243,10 @@ window.APP_DATA = {
         id: "psycho_18",
         question: "Parmi les outils d'évaluation du TSA, lequel évalue spécifiquement la communication réceptive chez les personnes non verbales ou à faible niveau verbal pour orienter le choix d'un moyen de CAA ?",
         options: [
-          "A. L'ADOS-2",
+          "A. L'ADI-R (Autism Diagnostic Interview-Revised)",
           "B. Le ComVoor (ComFor-2)",
-          "C. Le PEP-3",
-          "D. Le CHAT"
+          "C. Le PEP-3 (Profil Psycho-Éducatif)",
+          "D. Le CHAT (Checklist for Autism in Toddlers)"
         ],
         correct: 1,
         explanation: "Le ComVoor (ComFor-2) évalue spécifiquement la communication réceptive chez les personnes non verbales ou à faible niveau verbal avec autisme. Il cible le niveau de représentation visuelle et aide à choisir la complexité appropriée des moyens de communication alternative et augmentative (CAA). L'ADOS-2 (A) est un outil d'observation diagnostique, le PEP-3 (C) est psycho-éducatif, et le CHAT (D) est un outil de dépistage précoce.",
@@ -257,10 +257,10 @@ window.APP_DATA = {
         id: "psycho_19",
         question: "Concernant l'étiologie du TSA, quelle proposition est la plus exacte selon les données actuelles ?",
         options: [
-          "A. Le TSA est exclusivement d'origine génétique",
-          "B. Le TSA est exclusivement d'origine environnementale (vaccins, alimentation)",
+          "A. Le TSA est majoritairement attribuable à des facteurs génétiques identifiés",
+          "B. Le TSA est principalement lié à des facteurs environnementaux précoces",
           "C. Le TSA est d'origine multifactorielle : ~40% hérédité, ~60% facteurs environnementaux, selon un modèle intégratif",
-          "D. Le TSA est causé par un traumatisme psychologique précoce"
+          "D. Le TSA résulte d'une interaction précoce parent-enfant dysfonctionnelle"
         ],
         correct: 2,
         explanation: "L'étiologie du TSA est multifactorielle, impliquant environ 40% de facteurs héréditaires et 60% de facteurs environnementaux (perturbations prénatales/néonatales : prématurité, CMV, toxoplasmose, rubéole). Le modèle actuel est intégratif (biologie + génétique + psychologie + environnement). Les réponses A et B sont trop réductrices, et la réponse D correspond à une théorie dépassée et non validée scientifiquement.",
@@ -273,8 +273,8 @@ window.APP_DATA = {
         options: [
           "A. Le TSA présente des comportements restreints/répétitifs alors que le trouble de la communication sociale n'en présente pas",
           "B. Le trouble de la communication sociale présente un intérêt social faible alors que le TSA présente un intérêt social fort",
-          "C. Le TSA présente une imitation et un faire-semblant préservés",
-          "D. Le trouble de la communication sociale est caractérisé par des stéréotypies motrices"
+          "C. Le TSA se caractérise par une imitation et un faire-semblant préservés",
+          "D. Le trouble de la communication sociale comporte des stéréotypies motrices légères"
         ],
         correct: 0,
         explanation: "Selon Simms & Jin (2015), le trouble de la communication sociale (pragmatique) se distingue du TSA par l'absence de comportements restreints et répétitifs. Les personnes avec trouble de la communication sociale ont un intérêt social fort (contrairement à B), des interactions inappropriées mais non dues à des déficits langagiers de base, une imitation et un faire-semblant préservés, et sont frustrées par leurs échecs d'interaction sociale.",
@@ -285,10 +285,10 @@ window.APP_DATA = {
         id: "psycho_21",
         question: "Qu'est-ce que la BECS (Batterie d'Évaluation Cognitive et Socio-émotionnelle) évalue ?",
         options: [
-          "A. Les compétences académiques des enfants de 6 à 12 ans",
+          "A. Les compétences scolaires fondamentales des enfants de 6 à 12 ans",
           "B. Le développement cognitif et socio-émotionnel des enfants de 4 à 30 mois",
-          "C. Les habiletés sociales des adolescents avec TSA",
-          "D. La communication réceptive chez l'adulte avec autisme"
+          "C. Les habiletés sociales et adaptatives des adolescents avec TSA",
+          "D. Le niveau de communication fonctionnelle chez l'adulte avec autisme"
         ],
         correct: 1,
         explanation: "La BECS (Batterie d'Évaluation Cognitive et Socio-émotionnelle) est conçue pour les enfants de 4 à 30 mois et couvre 16 secteurs de développement répartis en 4 niveaux (4-8, 8-12, 12-18, 18-24 mois), évaluant les domaines cognitif et socio-émotionnel. Elle ne concerne pas les enfants d'âge scolaire (A), les adolescents (C), ni la communication réceptive adulte (D).",
@@ -299,10 +299,10 @@ window.APP_DATA = {
         id: "psycho_22",
         question: "Quels sont les trois profils d'interaction identifiés dans le TSA selon Prizant (1987) et Peeters (2014) ?",
         options: [
-          "A. Profil passif, profil actif, profil mixte",
+          "A. Profil distant, profil passif, profil actif mais bizarre",
           "B. Trois profils distincts identifiés, avec la notion de pairing (appariement au canal de communication préféré du patient)",
-          "C. Profil verbal, profil non verbal, profil écholalique",
-          "D. Profil léger, modéré, sévère"
+          "C. Profil verbal, profil non verbal, profil mixte",
+          "D. Profil de sévérité 1, 2, 3 selon le niveau de soutien requis"
         ],
         correct: 1,
         explanation: "Prizant (1987) et Peeters (2014) ont identifié trois profils d'interaction distincts dans le TSA, en insistant sur la notion de pairing (appariement) qui consiste à s'adapter au canal de communication préféré du patient. Cette approche souligne l'importance d'identifier le mode de communication privilégié pour optimiser l'intervention. Les réponses A, C et D ne correspondent pas à la classification de ces auteurs.",
@@ -313,10 +313,10 @@ window.APP_DATA = {
         id: "psycho_23",
         question: "Selon Baghdadli & Brisot-Dubois (2011), les habiletés sociales se définissent comme :",
         options: [
-          "A. La capacité à parler sans erreur grammaticale",
+          "A. La maîtrise des conventions linguistiques en situation d'interaction formelle",
           "B. L'ensemble de capacités permettant de percevoir et comprendre les messages, choisir une réponse et l'émettre de façon appropriée",
-          "C. La capacité à mémoriser les règles sociales écrites",
-          "D. La capacité à éviter tout contact social anxiogène"
+          "C. La connaissance déclarative des normes et règles sociales en vigueur",
+          "D. La régulation des comportements anxieux face aux situations sociales nouvelles"
         ],
         correct: 1,
         explanation: "Selon Baghdadli & Brisot-Dubois (2011), les habiletés sociales constituent « un ensemble de capacités qui permettent de percevoir et comprendre les messages, choisir une réponse, l'émettre de façon appropriée ». Elles se subdivisent en habiletés de communication, d'affirmation de soi, personnelles/émotionnelles, interpersonnelles et liées au contexte d'apprentissage.",
@@ -327,10 +327,10 @@ window.APP_DATA = {
         id: "psycho_24",
         question: "Parmi les propositions suivantes concernant les troubles du comportement dans le TSA, laquelle est correcte ?",
         options: [
-          "A. Les troubles du comportement sont inévitables et ne peuvent être réduits",
+          "A. Les troubles du comportement sont intrinsèques au TSA et peu sensibles aux interventions",
           "B. L'intervention précoce permet de réduire l'apparition des troubles du comportement",
-          "C. Les troubles du comportement n'apparaissent qu'à l'adolescence",
-          "D. L'automutilation est un signe exclusif du TSA"
+          "C. Les troubles du comportement émergent principalement à l'adolescence",
+          "D. L'automutilation constitue un marqueur clinique spécifique du TSA"
         ],
         correct: 1,
         explanation: "Le cours indique que l'intervention précoce permet de réduire l'apparition des troubles du comportement dans le TSA. Les troubles incluent les sautes d'humeur, les crises de pleurs/colère, l'automutilation (head banging, morsures, griffures), l'hyperactivité et l'auto-centrage. Ils ne sont pas inévitables (A), n'apparaissent pas qu'à l'adolescence (C), et l'automutilation n'est pas exclusive au TSA (D).",
@@ -341,10 +341,10 @@ window.APP_DATA = {
         id: "psycho_25",
         question: "Quelle est la particularité de la mémoire autobiographique et épisodique dans le TSA selon le cours ?",
         options: [
-          "A. Elle est supérieure à la moyenne",
-          "B. Elle est totalement absente",
+          "A. Elle présente des performances supérieures à la norme",
+          "B. Elle est gravement altérée dans la majorité des cas",
           "C. Elle est atypique, de même que la mémoire épisodique",
-          "D. Elle est identique à celle de la population générale"
+          "D. Elle suit un développement comparable à celui de la population générale"
         ],
         correct: 2,
         explanation: "Le cours indique que la mémoire dans le TSA est variable, mais que la mémoire autobiographique et la mémoire épisodique sont atypiques. La mémoire de travail et d'autres formes de mémoire peuvent être variables selon les individus. Les réponses A (supérieure), B (absente) et D (identique) ne reflètent pas les données du cours sur le caractère atypique de ces formes de mémoire.",
@@ -357,7 +357,7 @@ window.APP_DATA = {
         id: "geronto_01",
         question: "Quelle est la différence fondamentale entre la gériatrie et la gérontologie ?",
         options: [
-          "A. Ces deux termes sont interchangeables",
+          "A. Ces deux disciplines couvrent le même champ de pratique clinique",
           "B. La gériatrie est une spécialité médicale ; la gérontologie est la science qui étudie le vieillissement dans tous ses aspects",
           "C. La gérontologie est la médecine des personnes âgées ; la gériatrie étudie les aspects sociaux du vieillissement",
           "D. La gériatrie concerne les plus de 75 ans ; la gérontologie les plus de 65 ans"
@@ -371,10 +371,10 @@ window.APP_DATA = {
         id: "geronto_02",
         question: "Comment définit-on l'âgisme dans le contexte gériatrique ?",
         options: [
-          "A. Une politique de soins spécifiques aux personnes âgées",
+          "A. Un dispositif de soins coordonnés destiné aux patients gériatriques",
           "B. Une discrimination ou préjugé basé sur l'âge, avec stéréotypes négatifs sur l'incapacité et l'inutilité",
-          "C. Une approche médicale spécialisée pour les plus de 75 ans",
-          "D. Un trouble cognitif lié au vieillissement"
+          "C. Une approche thérapeutique centrée sur les spécificités du grand âge",
+          "D. Un syndrome clinique associant troubles cognitifs et perte d'autonomie"
         ],
         correct: 1,
         explanation: "L'âgisme est une discrimination ou un préjugé basé sur l'âge, véhiculant des stéréotypes négatifs sur l'incapacité, l'inutilité et la fragilité des personnes âgées. Dans le contexte gériatrique, il se manifeste par le fait de parler aux personnes âgées comme à des enfants, de minimiser leurs choix ou de les exclure des décisions. Les professionnels de santé y sont particulièrement vulnérables.",
@@ -385,10 +385,10 @@ window.APP_DATA = {
         id: "geronto_03",
         question: "Selon l'étude d'Adam (2016) menée au CHU de Liège auprès de 76 infirmières en oncologie, quel constat a été fait ?",
         options: [
-          "A. La majorité des mots associés aux personnes âgées étaient positifs",
+          "A. La majorité des mots associés aux personnes âgées étaient à connotation positive",
           "B. La majorité des mots associés aux personnes âgées étaient négatifs",
-          "C. Aucune association particulière n'a été relevée",
-          "D. Les infirmières ne présentaient aucun stéréotype lié à l'âge"
+          "C. Les associations rapportées étaient réparties équitablement entre positif et négatif",
+          "D. Les infirmières ne manifestaient pas de biais perceptif lié à l'âge du patient"
         ],
         correct: 1,
         explanation: "L'étude d'Adam (2016) menée auprès de 76 infirmières en oncologie au CHU de Liège a montré que la majorité des mots associés aux personnes âgées étaient négatifs, démontrant la présence de stéréotypes âgistes même chez les professionnels de santé. Une vision plus négative entraîne une attitude de soins différente selon l'âge.",
@@ -399,10 +399,10 @@ window.APP_DATA = {
         id: "geronto_04",
         question: "Qu'est-ce que l'âgisme « bienveillant » et quel peut être son effet ?",
         options: [
-          "A. Un discours motivant qui améliore les performances des personnes âgées",
+          "A. Un discours valorisant qui renforce l'estime de soi et l'autonomie des personnes âgées",
           "B. Un excès de politesse, une parole ralentie/forte et des phrases simplifiées, pouvant diminuer les performances",
-          "C. Une attitude de soins exclusivement positive sans aucun impact négatif",
-          "D. Un type de thérapie adaptée aux personnes âgées"
+          "C. Une attitude de soins empathique qui améliore la qualité de la relation thérapeutique",
+          "D. Une modalité d'accompagnement psychosocial centrée sur les ressources de la personne"
         ],
         correct: 1,
         explanation: "L'âgisme « bienveillant » se manifeste par un excès de politesse, une parole plus lente et plus forte, des phrases simplifiées. Cette attitude peut paradoxalement diminuer les performances des personnes âgées. Par ailleurs, une personne âgée peut demander de répéter non pas parce qu'elle n'a pas entendu, mais parce qu'elle se demande si elle a bien compris.",
@@ -413,10 +413,10 @@ window.APP_DATA = {
         id: "geronto_05",
         question: "Selon la perspective gériatrique et interdisciplinaire, le vieillissement est défini comme :",
         options: [
-          "A. Une maladie inévitable",
+          "A. Un processus pathologique survenant après 65 ans",
           "B. Une étape de vie comportant des défis et des forces, universelle, irréversible et inéluctable",
-          "C. Un processus qui débute à 65 ans dans toutes les cultures",
-          "D. Un déclin exclusivement physique sans composante sociale"
+          "C. Un phénomène dont le début est uniformément fixé à 65 ans dans les sociétés occidentales",
+          "D. Un déclin progressif des fonctions organiques sans dimension psychosociale"
         ],
         correct: 1,
         explanation: "Selon la perspective gériatrique et interdisciplinaire, le vieillissement est une étape de vie comportant des défis et des forces. Il ne s'agit PAS d'une maladie (A incorrect). Le vieillissement est universel, irréversible, inéluctable, lent et progressif, résultant de facteurs génétiques et environnementaux. L'âge de 65 ans est une conception occidentale liée à la retraite, non une définition universelle (C incorrect).",
@@ -427,10 +427,10 @@ window.APP_DATA = {
         id: "geronto_06",
         question: "Qu'est-ce qui définit un patient gériatrique, au-delà du seul critère de l'âge ?",
         options: [
-          "A. Un âge supérieur à 65 ans exclusivement",
+          "A. Un âge supérieur à 65 ans avec au moins une pathologie chronique",
           "B. La coexistence de comorbidités, altération de l'état fonctionnel, troubles cognitifs/psychologiques, polymédication, fragilité et syndromes gériatriques",
-          "C. Une personne institutionnalisée en maison de repos",
-          "D. Toute personne de plus de 75 ans sans autre critère"
+          "C. Une personne résidant en structure d'hébergement pour personnes âgées",
+          "D. Toute personne de plus de 75 ans présentant une perte d'autonomie motrice"
         ],
         correct: 1,
         explanation: "L'âge n'est PAS le critère définissant le patient gériatrique. Le profil gériatrique est déterminé par la coexistence de : comorbidités, altération de l'état fonctionnel, troubles cognitifs/psychologiques, polymédication (≥5 médicaments), fragilité et syndromes gériatriques. L'Évaluation Gériatrique Multidimensionnelle (EGM/CGA) détermine l'admission en service gériatrique en identifiant l'accumulation de facteurs de risque.",
@@ -441,10 +441,10 @@ window.APP_DATA = {
         id: "geronto_07",
         question: "Qu'est-ce qu'un syndrome gériatrique ?",
         options: [
-          "A. Une maladie spécifique aux personnes âgées comme le diabète de type 2",
+          "A. Une pathologie organique chronique fréquente après 75 ans comme le diabète de type 2",
           "B. Un terme englobant des conditions cliniques qui ne correspondent pas aux catégories de maladies classiques",
-          "C. Un trouble psychiatrique exclusif du grand âge",
-          "D. Une complication chirurgicale chez la personne âgée"
+          "C. Un trouble psychogériatrique caractérisé par une confusion mentale",
+          "D. Une complication post-chirurgicale survenant chez la personne âgée hospitalisée"
         ],
         correct: 1,
         explanation: "Le terme « syndrome gériatrique » englobe des conditions cliniques qui ne correspondent pas aux catégories de maladies classiques. Les plus fréquents sont : le delirium (état confusionnel aigu), les chutes, l'incontinence et l'hypotension orthostatique. Ces syndromes sont souvent plurifactoriels et la plainte principale peut ne pas représenter la condition pathologique sous-jacente.",
@@ -455,10 +455,10 @@ window.APP_DATA = {
         id: "geronto_08",
         question: "Comment la SFGG définit-elle la fragilité ?",
         options: [
-          "A. Une perte d'autonomie irréversible",
+          "A. Une perte d'autonomie fonctionnelle installée et définitive",
           "B. Une réduction des capacités de réserve et d'adaptation aux événements stressants, partiellement liée au vieillissement",
-          "C. Un état de dépendance totale nécessitant une institutionnalisation immédiate",
-          "D. Une pathologie aiguë spécifique au grand âge"
+          "C. Un état de dépendance avancée requérant une institutionnalisation",
+          "D. Une pathologie organique aiguë propre au grand âge"
         ],
         correct: 1,
         explanation: "Selon la Société Française de Gériatrie et Gérontologie (SFGG), la fragilité est une réduction des capacités de réserve et d'adaptation aux événements stressants, partiellement mais non exclusivement liée au vieillissement. C'est un concept multidimensionnel (social, physique, psychologique, environnemental) et un processus dynamique potentiellement RÉVERSIBLE.",
@@ -469,10 +469,10 @@ window.APP_DATA = {
         id: "geronto_09",
         question: "Pourquoi l'identification de la fragilité est-elle cruciale en gériatrie ?",
         options: [
-          "A. Parce qu'elle confirme une dépendance irréversible",
+          "A. Parce qu'elle confirme une dépendance fonctionnelle irréversible",
           "B. Parce que la fragilité précède la perte d'autonomie — identifier la fragilité, c'est identifier la « pré-dépendance »",
-          "C. Parce qu'elle permet d'exclure les patients des services gériatriques",
-          "D. Parce qu'elle indique systématiquement une institutionnalisation"
+          "C. Parce qu'elle permet d'orienter le patient vers un service de soins palliatifs",
+          "D. Parce qu'elle prédit une institutionnalisation à court terme"
         ],
         correct: 1,
         explanation: "La fragilité précède la perte d'autonomie. Identifier la fragilité, c'est donc identifier la « pré-dépendance » avant qu'elle ne devienne irréversible. Les conséquences de la fragilité incluent un risque accru de chutes, de dépendance, d'institutionnalisation et de décès. La fragilité étant potentiellement réversible, son identification précoce est un enjeu majeur.",
@@ -500,7 +500,7 @@ window.APP_DATA = {
           "A. Robuste",
           "B. Pré-fragile",
           "C. Fragile",
-          "D. Très fragile"
+          "D. Dépendant"
         ],
         correct: 2,
         explanation: "Selon le phénotype de Fried : 0 critère = robuste, 1-2 critères = pré-fragile, ≥3 critères = fragile. Un score de 3 sur 5 correspond donc au statut « fragile ». Le phénotype de Fried est catégoriel (3 catégories), contrairement à l'indice de Rockwood qui est continu.",
@@ -512,9 +512,9 @@ window.APP_DATA = {
         question: "Quel outil d'évaluation de la fragilité utilise un questionnaire auto-rapporté incluant Fatigue, Résistance, Ambulation, Maladies et Perte de poids ?",
         options: [
           "A. Le phénotype de Fried",
-          "B. L'indice de Rockwood",
+          "B. L'échelle de fragilité clinique de Rockwood",
           "C. Le questionnaire FRAIL",
-          "D. L'EGM (Évaluation Gériatrique Multidimensionnelle)"
+          "D. Le score ISAR (Identification of Seniors At Risk)"
         ],
         correct: 2,
         explanation: "Le questionnaire FRAIL est un outil auto-rapporté évaluant 5 critères : Fatigue, Résistance (monter 10 marches), Ambulation (marcher plusieurs centaines de mètres), Illnesses (>5 maladies chroniques), Loss of Weight (>5% en 6-12 mois). Le phénotype de Fried (A) inclut des mesures objectives (dynamomètre), l'indice de Rockwood (B) est multi-domaine avec 70-100 items, et l'EGM (D) est l'évaluation globale.",
@@ -527,8 +527,8 @@ window.APP_DATA = {
         options: [
           "A. Il est plus rapide à administrer (5-10 minutes)",
           "B. Il est sensible aux changements subtils et offre une approche continue (score de 0 à 1)",
-          "C. Il ne nécessite aucune expertise gériatrique",
-          "D. Il se limite à l'évaluation des critères physiques uniquement"
+          "C. Il peut être utilisé sans formation gériatrique préalable",
+          "D. Il évalue les aspects physiques de la fragilité"
         ],
         correct: 1,
         explanation: "L'indice de Rockwood présente comme avantages d'être sensible aux changements subtils, d'offrir une approche continue (score de 0 à 1), et d'intégrer la complexité gériatrique. En revanche, il est long (45-60 min pour 70-100 items), complexe et requiert une expertise gériatrique. Contrairement au phénotype de Fried qui se concentre sur le physique, Rockwood est multidimensionnel.",
@@ -539,9 +539,9 @@ window.APP_DATA = {
         id: "geronto_14",
         question: "Combien de domaines couvre l'indice de fragilité de Rockwood ?",
         options: [
-          "A. 3 domaines",
-          "B. 5 domaines",
-          "C. 7 domaines",
+          "A. 5 domaines",
+          "B. 7 domaines",
+          "C. 11 domaines",
           "D. 9 domaines"
         ],
         correct: 3,
@@ -555,8 +555,8 @@ window.APP_DATA = {
         options: [
           "A. Fried : 45-60 min ; Rockwood : 10-15 min",
           "B. Fried : 10-15 min ; Rockwood : 45-60 min",
-          "C. Fried : 5 min ; Rockwood : 20 min",
-          "D. Fried : 30 min ; Rockwood : 30 min"
+          "C. Fried : 20-30 min ; Rockwood : 20-30 min",
+          "D. Fried : 5-10 min ; Rockwood : 20-30 min"
         ],
         correct: 1,
         explanation: "Le phénotype de Fried est un outil de dépistage rapide (10-15 minutes) utilisable en soins primaires avec 5 critères. L'indice de Rockwood est une évaluation gériatrique complète nécessitant 45 à 60 minutes pour les 70-100 items. Cette différence reflète leurs usages respectifs : dépistage (Fried) vs évaluation approfondie (Rockwood).",
@@ -567,10 +567,10 @@ window.APP_DATA = {
         id: "geronto_16",
         question: "Quel est le rôle du logopède/orthophoniste en gériatrie selon le cours ?",
         options: [
-          "A. Exclusivement la rééducation du langage écrit",
+          "A. La rééducation des troubles du langage écrit et du calcul",
           "B. La prise en charge de la psychopathologie du langage et de la communication, ainsi que des troubles de la déglutition",
-          "C. Uniquement l'évaluation cognitive",
-          "D. La prescription médicamenteuse pour les troubles de la parole"
+          "C. L'évaluation des fonctions cognitives et le diagnostic différentiel des démences",
+          "D. La gestion médicamenteuse des troubles de la parole et de la voix"
         ],
         correct: 1,
         explanation: "Le logopède/orthophoniste en gériatrie relève des neurosciences en réadaptation/gériatrie. Ses domaines incluent la psychopathologie du langage et de la communication (aspects cognitifs, relationnels, affectifs, comportementaux) et les troubles de la déglutition (dysphagie). Il intervient sur des pathologies comme l'AVC, les maladies neurodégénératives, les TCC, l'oncologie et les démences.",
@@ -595,10 +595,10 @@ window.APP_DATA = {
         id: "geronto_18",
         question: "Quels sont les bénéfices démontrés de l'association EGM (CGA) + équipe multidisciplinaire en gériatrie ?",
         options: [
-          "A. Aucun bénéfice significatif démontré",
+          "A. Des résultats modestes sans différence significative avec la prise en charge standard",
           "B. Réduction de la mortalité, de l'institutionnalisation, du déclin fonctionnel et des hospitalisations",
-          "C. Uniquement une amélioration de la satisfaction des patients",
-          "D. Une augmentation de la durée d'hospitalisation mais de meilleure qualité"
+          "C. Une amélioration principalement subjective de la satisfaction des patients",
+          "D. Une augmentation de la durée moyenne d'hospitalisation avec de meilleurs résultats fonctionnels"
         ],
         correct: 1,
         explanation: "L'association de l'Évaluation Gériatrique Multidimensionnelle (CGA) et du travail en équipe multidisciplinaire a démontré des bénéfices significatifs : réduction de la mortalité, réduction de l'institutionnalisation, réduction du déclin fonctionnel et réduction des hospitalisations. La réponse A est contredite par les données probantes.",
@@ -609,10 +609,10 @@ window.APP_DATA = {
         id: "geronto_19",
         question: "Quelle particularité de la dysphagie chez la personne âgée correspond à la définition d'un syndrome gériatrique ?",
         options: [
-          "A. Elle est toujours d'origine neurologique unique",
+          "A. Elle résulte d'une lésion neurologique focale identifiable",
           "B. Sa prévalence augmente avec l'âge, elle est d'origine plurifactorielle, et la plainte principale peut ne pas représenter la condition pathologique sous-jacente",
-          "C. Elle ne concerne que les patients institutionnalisés",
-          "D. Elle est toujours réversible spontanément"
+          "C. Elle affecte les patients vivant en institution de manière prédominante",
+          "D. Elle se résorbe habituellement avec la prise en charge nutritionnelle"
         ],
         correct: 1,
         explanation: "La dysphagie correspond à la définition d'un syndrome gériatrique car : sa prévalence augmente avec l'âge, elle se retrouve surtout chez les patients fragiles, elle impacte la qualité de vie, son origine est plurifactorielle, et la plainte principale peut ne pas représenter la condition pathologique sous-jacente (ex. une infection pulmonaire produisant un delirium, le patient étant admis pour « altération de l'état général »).",
@@ -623,10 +623,10 @@ window.APP_DATA = {
         id: "geronto_20",
         question: "Quels professionnels composent typiquement l'équipe multidisciplinaire en gériatrie ?",
         options: [
-          "A. Uniquement médecin et infirmier",
+          "A. Médecin traitant et infirmier coordinateur",
           "B. Gériatre, infirmier, aide-soignant, kinésithérapeute, ergothérapeute, assistant social, logopède, diététicien, psychologue/neuropsychologue, pharmacien",
-          "C. Médecin, chirurgien, anesthésiste",
-          "D. Infirmier, aide-soignant, brancardier"
+          "C. Médecin, chirurgien, anesthésiste-réanimateur",
+          "D. Infirmier, aide-soignant, brancardier, secrétaire médicale"
         ],
         correct: 1,
         explanation: "L'équipe multidisciplinaire en gériatrie comprend : gériatre, infirmier, aide-soignant, kinésithérapeute, ergothérapeute, assistant social, logopède/orthophoniste, diététicien, psychologue/neuropsychologue et pharmacien. La médecine gériatrique est basée sur le travail d'équipe en raison de la complexité des situations, et les réunions multidisciplinaires (RMD) sont au cœur de la spécialité.",
@@ -637,10 +637,10 @@ window.APP_DATA = {
         id: "geronto_21",
         question: "Parmi les propositions suivantes concernant le vieillissement, laquelle est conforme à la perspective interdisciplinaire ?",
         options: [
-          "A. Le vieillissement est une maladie qu'il faut traiter médicalement",
-          "B. Le vieillissement débute exactement à 65 ans dans toutes les cultures",
+          "A. Le vieillissement est un processus pathologique nécessitant une prise en charge médicale",
+          "B. Le vieillissement débute à 65 ans quelle que soit la culture de référence",
           "C. Le vieillissement est universel, irréversible, inéluctable, lent et progressif, influencé par la génétique et l'environnement",
-          "D. Le vieillissement concerne uniquement la dimension physique"
+          "D. Le vieillissement se définit principalement par ses manifestations physiologiques"
         ],
         correct: 2,
         explanation: "Le vieillissement est universel, irréversible, inéluctable, lent et progressif. Il dépend de facteurs génétiques et environnementaux. Il n'a pas de définition fixe — celle-ci dépend du pays et de la culture (en Occident, « vieux » commence à 65 ans, conception liée à l'âge de la retraite). Le vieillissement N'EST PAS une maladie (A incorrect) et ne se limite pas au physique (D incorrect).",
@@ -651,10 +651,10 @@ window.APP_DATA = {
         id: "geronto_22",
         question: "Selon les notes de cours de gériatrie, quel pourcentage d'enfants présentant un trouble du langage précoce conservent des difficultés persistantes à l'âge adulte ?",
         options: [
-          "A. 10-20%",
-          "B. 30-40%",
+          "A. 20-30%",
+          "B. 40-50%",
           "C. 50-80%",
-          "D. 90-100%"
+          "D. 80-95%"
         ],
         correct: 2,
         explanation: "Bien que cette donnée provienne de l'article de Simms & Jin (2015) utilisé en psychologie, elle est citée dans le contexte gériatrique car 50 à 80% des enfants avec un trouble du langage précoce présentent des difficultés persistantes à l'âge adulte, ce qui souligne l'importance d'un suivi longitudinal et interdisciplinaire.",
@@ -665,10 +665,10 @@ window.APP_DATA = {
         id: "geronto_23",
         question: "Qu'est-ce que le Projet d'Intervention Logopédique (PIL) en gériatrie ?",
         options: [
-          "A. Un projet uniquement centré sur la rééducation du langage oral",
+          "A. Un programme centré sur la rééducation du langage oral et écrit",
           "B. Une approche qui peut être restauratrice, réorganisatrice ou palliative, en intervention directe ou indirecte",
-          "C. Un outil de diagnostic médical",
-          "D. Un programme d'activités de loisirs pour personnes âgées"
+          "C. Un protocole standardisé de diagnostic des troubles neurocognitifs",
+          "D. Un dispositif d'animation thérapeutique à visée occupationnelle"
         ],
         correct: 1,
         explanation: "Le Projet d'Intervention Logopédique (PIL) peut adopter une approche restauratrice (visant la récupération), réorganisatrice (compensation/réorganisation des fonctions) ou palliative (maintien/confort), et se décliner en intervention directe (auprès du patient) ou indirecte (conseils, formation de l'entourage/équipe). Les activités incluent séances individuelles, groupes, suivi, conseils et formation d'équipe.",
@@ -681,8 +681,8 @@ window.APP_DATA = {
         options: [
           "A. Consultation Gériatrique Ambulatoire",
           "B. Évaluation Gériatrique Multidimensionnelle (EGM)",
-          "C. Centre de Gériatrie Aiguë",
-          "D. Coordination Gérontologique Avancée"
+          "C. Centre de Gérontologie Appliquée",
+          "D. Coordination Gérontologique Ambulatoire"
         ],
         correct: 1,
         explanation: "La CGA (Comprehensive Geriatric Assessment) correspond en français à l'Évaluation Gériatrique Multidimensionnelle (EGM). Elle permet de déterminer l'admission en service de gériatrie et identifie l'accumulation de facteurs de risque propres au profil gériatrique. Elle constitue, avec l'équipe multidisciplinaire, une pierre angulaire de la spécialité.",
@@ -709,9 +709,9 @@ window.APP_DATA = {
         id: "audio_01",
         question: "Selon l'OMS (2021), combien de personnes dans le monde présentent une perte auditive ?",
         options: [
-          "A. 100 millions",
+          "A. 250 millions",
           "B. 466 millions",
-          "C. 1 milliard",
+          "C. 800 millions",
           "D. 50 millions"
         ],
         correct: 1,
@@ -723,10 +723,10 @@ window.APP_DATA = {
         id: "audio_02",
         question: "Parmi les propositions suivantes concernant les types de perte auditive, laquelle est correcte ?",
         options: [
-          "A. La surdité de transmission touche l'oreille interne",
+          "A. La surdité de transmission touche la cochlée et le nerf auditif",
           "B. La surdité de perception touche la cochlée ou le nerf auditif",
-          "C. La surdité mixte ne touche que l'oreille externe",
-          "D. La surdité centrale est causée par une lésion de l'oreille moyenne"
+          "C. La surdité mixte touche l'oreille externe et l'oreille moyenne",
+          "D. La surdité centrale est causée par une lésion du tronc cérébral"
         ],
         correct: 1,
         explanation: "La surdité de perception (neurosensorielle) touche l'oreille interne (cochlée) ou le nerf auditif. Elle est à la fois quantitative et qualitative. La surdité de transmission (A) touche l'oreille externe ou moyenne. La surdité mixte (C) combine atteinte de l'OM/OE et de l'OI. La surdité centrale (D) est liée à une lésion corticale, pas de l'oreille moyenne.",
@@ -737,10 +737,10 @@ window.APP_DATA = {
         id: "audio_03",
         question: "Quelle est la perte auditive maximale possible dans une surdité de transmission pure ?",
         options: [
-          "A. 20 dB",
+          "A. 30 dB",
           "B. 50 dB",
-          "C. 80 dB",
-          "D. 120 dB"
+          "C. 70 dB",
+          "D. 100 dB"
         ],
         correct: 1,
         explanation: "Dans une surdité de transmission pure (atteinte de l'oreille externe ou moyenne), la perte est au maximum de 50 dB. Elle est principalement quantitative, et l'organe de Corti n'est pas affecté. Si la perte est irréversible, les solutions incluent le vibreur ou le BAHA.",
@@ -751,10 +751,10 @@ window.APP_DATA = {
         id: "audio_04",
         question: "Qu'est-ce qui caractérise une surdité de perception (neurosensorielle) par rapport à une surdité de transmission ?",
         options: [
-          "A. Elle est uniquement quantitative",
+          "A. Elle affecte la perception sonore de manière quantitative",
           "B. Elle est à la fois quantitative et qualitative, avec les conductions aérienne et osseuse affectées",
-          "C. Elle ne dépasse jamais 50 dB de perte",
-          "D. Elle est toujours réversible spontanément"
+          "C. Elle ne dépasse pas 60 dB de perte auditive",
+          "D. Elle peut se résorber après traitement médicamenteux"
         ],
         correct: 1,
         explanation: "La surdité de perception est à la fois quantitative ET qualitative. Les conductions aérienne et osseuse sont toutes deux affectées. La perte peut aller de légère à profonde (pas limitée à 50 dB comme la transmission). Elle peut être endocochléaire (organe de Corti) ou rétrocochléaire (nerf auditif = neuropathie auditive/ANSD).",
@@ -765,10 +765,10 @@ window.APP_DATA = {
         id: "audio_05",
         question: "Selon la classification BIAP, une perte auditive moyenne de 45 dB correspond à quel degré ?",
         options: [
-          "A. Audition normale/sub-normale",
+          "A. Audition sub-normale (21-35 dB)",
           "B. Légère (21-40 dB)",
           "C. Moyenne du 1er degré (41-55 dB)",
-          "D. Sévère (71-90 dB)"
+          "D. Moyenne du 2e degré (56-70 dB)"
         ],
         correct: 2,
         explanation: "Selon la classification BIAP : normale/sub-normale = 0-20 dB ; légère = 21-40 dB ; moyenne 1er degré = 41-55 dB ; moyenne 2e degré = 56-70 dB ; sévère 1er degré = 71-80 dB ; sévère 2e degré = 81-90 dB. Une perte de 45 dB se situe donc dans la catégorie « moyenne du 1er degré » (41-55 dB).",
@@ -779,10 +779,10 @@ window.APP_DATA = {
         id: "audio_06",
         question: "Quelle est la formule correcte pour calculer la perte auditive moyenne selon le cours ?",
         options: [
-          "A. (I250 + I1000 + I2000 + I4000) / 4",
+          "A. (I250 + I500 + I1000 + I2000) / 4",
           "B. (I500 + I1000 + I2000 + I4000) / 4",
-          "C. (I250 + I500 + I1000 + I2000) / 4",
-          "D. (I500 + I2000 + I4000 + I8000) / 4"
+          "C. (I250 + I500 + I1000 + I2000 + I4000) / 5",
+          "D. (I500 + I1000 + I2000 + I4000 + I8000) / 5"
         ],
         correct: 1,
         explanation: "La formule correcte pour calculer la perte auditive moyenne est (I500 + I1000 + I2000 + I4000) / 4, applicable uniquement si la courbe est uniforme, en conduction aérienne, et calculée par oreille séparément. Les fréquences 500, 1000, 2000 et 4000 Hz correspondent à la bande de fréquence de la parole.",
@@ -793,10 +793,10 @@ window.APP_DATA = {
         id: "audio_07",
         question: "Qu'est-ce que le Rinne et quelle information fournit-il ?",
         options: [
-          "A. Il mesure uniquement la perte auditive totale",
+          "A. Il mesure le seuil absolu de perception auditive",
           "B. Il correspond à la différence entre la conduction aérienne et la conduction osseuse, indiquant le type de surdité",
-          "C. Il mesure l'intensité sonore minimale perçue",
-          "D. Il évalue la compréhension de la parole dans le bruit"
+          "C. Il évalue le niveau de discrimination de la parole",
+          "D. Il détermine la latéralisation de la perte auditive"
         ],
         correct: 1,
         explanation: "Le Rinne correspond à la différence entre la conduction aérienne (CA) et la conduction osseuse (CO). Si CO > CA, cela indique une surdité de transmission. Si les deux sont affectées, cela indique une surdité de perception. Le Rinne est présent/absent selon l'écart entre les deux courbes sur l'audiogramme.",
@@ -808,9 +808,9 @@ window.APP_DATA = {
         question: "Quelle est la particularité de la surdité centrale par rapport aux autres types de surdité ?",
         options: [
           "A. Elle est causée par une lésion corticale entraînant un défaut de traitement du signal (qualitatif), l'entrée du son étant normale mais la transmission au cerveau perturbée",
-          "B. Elle est toujours bilatérale et symétrique",
-          "C. Elle ne touche que les fréquences graves",
-          "D. Elle est toujours réversible après traitement chirurgical"
+          "B. Elle se manifeste par une atteinte symétrique des deux oreilles",
+          "C. Elle affecte préférentiellement les fréquences aiguës",
+          "D. Elle répond favorablement à un traitement chirurgical"
         ],
         correct: 0,
         explanation: "La surdité centrale (lésion corticale) se caractérise par un défaut de traitement du signal (qualitatif). L'entrée du son est normale, mais la transmission au cerveau est perturbée. L'audiométrie vocale peut être très mauvaise malgré une courbe tonale modérée. Des fluctuations sont observables. Il peut aussi y avoir une perte quantitative.",
@@ -821,10 +821,10 @@ window.APP_DATA = {
         id: "audio_09",
         question: "Concernant l'otite séromuqueuse chez l'enfant, quelle affirmation est EXACTE ?",
         options: [
-          "A. Elle est douloureuse et nécessite une hospitalisation systématique",
+          "A. Elle est douloureuse et requiert une hospitalisation en urgence",
           "B. Elle est bénigne, NON douloureuse, entraîne une perte de transmission de maximum 50 dB, et ne contre-indique PAS l'intervention logopédique",
-          "C. Elle contre-indique formellement toute intervention logopédique",
-          "D. Elle ne produit aucune perte auditive significative"
+          "C. Elle constitue une contre-indication temporaire à la prise en charge logopédique",
+          "D. Elle n'occasionne pas de retentissement fonctionnel sur l'audition"
         ],
         correct: 1,
         explanation: "L'otite séromuqueuse est une affection bénigne (liquide derrière les tympans), NON douloureuse, avec une perte de transmission maximale de 50 dB. L'enfant réagit aux sons/voix, ce qui la rend souvent inaperçue. Elle ne contre-indique pas l'intervention logopédique — au contraire ! Les altérations peuvent persister jusqu'à 3 mois après traitement.",
@@ -835,10 +835,10 @@ window.APP_DATA = {
         id: "audio_10",
         question: "Parmi les conséquences de l'otite séromuqueuse sur le développement de l'enfant, on retrouve :",
         options: [
-          "A. Une avance dans le développement langagier grâce à la plasticité cérébrale",
+          "A. Une accélération du développement phonologique par compensation",
           "B. Un retard dans les représentations phonologiques, une absence de perception des conversations parallèles et un arrêt dans l'évolution du langage",
-          "C. Uniquement une difficulté à entendre les sons graves",
-          "D. Une perte auditive définitive de type perception"
+          "C. Une atteinte limitée à la perception des sons de basse fréquence",
+          "D. Une altération permanente de l'oreille interne de type perception"
         ],
         correct: 1,
         explanation: "L'otite séromuqueuse entraîne un retard dans les représentations phonologiques, une absence de perception des conversations parallèles, et un arrêt dans l'évolution du langage. Les signes observables incluent : l'enfant parle fort, s'agite, perd son attention, demande de répéter. La perte est de type transmission, temporaire, et ne touche pas que les graves.",
@@ -849,10 +849,10 @@ window.APP_DATA = {
         id: "audio_11",
         question: "Quel pourcentage des surdités est d'origine génétique ?",
         options: [
-          "A. 20%",
-          "B. 40%",
+          "A. 30%",
+          "B. 50%",
           "C. 60%",
-          "D. 80%"
+          "D. 75%"
         ],
         correct: 2,
         explanation: "60% des surdités sont d'origine génétique, dont 70% sont non syndromiques (isolées) et 30% sont syndromiques. La mutation la plus fréquente est GJB2 (Connexine 26) qui représente 15-40% des surdités génétiques non syndromiques. 25% des surdités restent de cause inconnue.",
@@ -866,7 +866,7 @@ window.APP_DATA = {
           "A. Le syndrome de Waardenburg",
           "B. Le syndrome de Pendred",
           "C. Le syndrome de Usher de type I",
-          "D. Le syndrome CHARGE"
+          "D. Le syndrome d'Alport"
         ],
         correct: 2,
         explanation: "Le syndrome de Usher de type I associe une surdité congénitale profonde, des troubles de l'équilibre (marche vers 22 mois), des difficultés de vision nocturne dès 7-8 ans et une réduction progressive du champ visuel (rétinite pigmentaire). C'est la cause génétique la plus fréquente de surdi-cécité (prévalence 1/25 000). L'implantation cochléaire bilatérale est fortement indiquée précocement.",
@@ -877,10 +877,10 @@ window.APP_DATA = {
         id: "audio_13",
         question: "Quelle est la particularité du syndrome de Pendred concernant l'audition ?",
         options: [
-          "A. Surdité de transmission pure",
+          "A. Surdité de transmission pure avec tympanosclérose",
           "B. Surdité progressive avec fluctuations, élargissement de l'aqueduc vestibulaire, atteinte thyroïdienne",
-          "C. Surdité unilatérale uniquement",
-          "D. Audition normale avec acouphènes"
+          "C. Surdité unilatérale avec acouphènes pulsatiles",
+          "D. Surdité brusque d'apparition à l'adolescence"
         ],
         correct: 1,
         explanation: "Le syndrome de Pendred se caractérise par une surdité progressive avec fluctuations, un élargissement de l'aqueduc vestibulaire, et une atteinte thyroïdienne. La surdité fluctuante entraîne un mauvais ancrage et un mauvais repérage temporo-spatial. Les aides auditives sont moins efficaces, et l'implant cochléaire (IC) permet de stabiliser la perception.",
@@ -891,10 +891,10 @@ window.APP_DATA = {
         id: "audio_14",
         question: "Quelle est la conséquence ORL spécifique d'une méningite chez un enfant sourd ?",
         options: [
-          "A. Une amélioration de l'audition",
+          "A. Une récupération auditive progressive après la phase aiguë",
           "B. Une ossification rapide de la cochlée, constituant une URGENCE pour l'implantation cochléaire",
-          "C. Une surdité de transmission réversible",
-          "D. Aucune conséquence auditive"
+          "C. Une surdité de transmission temporaire",
+          "D. Des séquelles limitées au système vestibulaire"
         ],
         correct: 1,
         explanation: "La méningite peut entraîner une ossification rapide de la cochlée, ce qui constitue une URGENCE pour l'implantation cochléaire. Les résultats sont mitigés. La surdité post-méningite est de type perception, acquise, et peut survenir en période pétrilinguale.",
@@ -905,10 +905,10 @@ window.APP_DATA = {
         id: "audio_15",
         question: "Quel pourcentage d'enfants sourds profonds présente une atteinte vestibulaire partielle selon Jacot et al. (2009) ?",
         options: [
-          "A. 10%",
-          "B. 20%",
+          "A. 15%",
+          "B. 25%",
           "C. 30%",
-          "D. 50%"
+          "D. 45%"
         ],
         correct: 2,
         explanation: "Selon Jacot et al. (2009), 30% des enfants sourds profonds présentent une atteinte vestibulaire partielle, et 20% une aréflexie bilatérale. Les conséquences incluent un retard de développement psychomoteur (tenue de tête, position assise, marche), une mauvaise régulation tonique, des troubles du regard, des capacités visuo-attentionnelles altérées et un schéma corporel mal intégré.",
@@ -919,10 +919,10 @@ window.APP_DATA = {
         id: "audio_16",
         question: "Quel est le taux de TSA dans la population sourde par rapport à la population entendante selon Meinzen-Derr (2013) ?",
         options: [
-          "A. 1% (identique à la population entendante)",
+          "A. 2% (contre 1% chez les entendants)",
           "B. 4% (contre 1% chez les entendants)",
-          "C. 10% (contre 1% chez les entendants)",
-          "D. 0,5% (moins que la population entendante)"
+          "C. 7% (contre 1% chez les entendants)",
+          "D. 1% (identique à la population entendante)"
         ],
         correct: 1,
         explanation: "Selon Meinzen-Derr (2013), le taux de TSA dans la population sourde est de 4%, soit 4 fois plus que dans la population entendante (1%). Le diagnostic de TSA chez l'enfant sourd est tardif et délicat. Dans 50% des cas, des étiologies communes sont retrouvées (anomalies congénitales/néonatales, prématurité, CMV, rubéole, herpes).",
@@ -933,10 +933,10 @@ window.APP_DATA = {
         id: "audio_17",
         question: "Concernant les troubles du comportement chez l'enfant sourd, quelle affirmation est correcte ?",
         options: [
-          "A. Ils sont inexistants grâce à la plasticité cérébrale",
+          "A. Leur prévalence est comparable à celle des enfants entendants",
           "B. Leur occurrence est plus élevée, même avec implant cochléaire, liée au contrôle attentionnel dans l'interaction et aux difficultés de communication",
-          "C. Ils ne surviennent qu'en cas de syndrome associé",
-          "D. Ils sont systématiquement liés à un trouble du spectre de l'autisme"
+          "C. Ils apparaissent en présence d'un syndrome génétique associé",
+          "D. Ils sont attribuables à un trouble du spectre de l'autisme sous-jacent"
         ],
         correct: 1,
         explanation: "L'occurrence des troubles du comportement est plus élevée chez les enfants sourds, même avec implant cochléaire. Ils sont liés au contrôle attentionnel dans l'interaction et aux difficultés de communication. Ils peuvent aussi être liés à un syndrome (Waardenburg, rubéole = comorbidité) ou à un trouble associé (TSA), mais pas systématiquement (D incorrect).",
@@ -950,7 +950,7 @@ window.APP_DATA = {
           "A. Après l'acquisition complète du langage (après 6 ans)",
           "B. Avant l'acquisition du langage (surdité de naissance)",
           "C. Pendant l'acquisition du langage (1-3 ans)",
-          "D. À l'âge adulte uniquement"
+          "D. À l'âge adulte"
         ],
         correct: 1,
         explanation: "La surdité prélinguale survient avant l'acquisition du langage (surdité de naissance). La surdité pétrilinguale (C) survient pendant l'acquisition du langage (1-3 ans), l'enfant ayant déjà été exposé au langage. La surdité postlinguale/tardive peut être brutale ou progressive.",
@@ -961,10 +961,10 @@ window.APP_DATA = {
         id: "audio_19",
         question: "À partir de quel seuil de perte auditive l'appareillage est-il remboursé en Belgique ?",
         options: [
-          "A. 20 dB",
+          "A. 25 dB",
           "B. 35 dB",
-          "C. 50 dB",
-          "D. 70 dB"
+          "C. 45 dB",
+          "D. 60 dB"
         ],
         correct: 1,
         explanation: "En Belgique, l'appareillage auditif est remboursé à partir d'une perte de 35 dB. Par ailleurs, une perte d'au moins 40 dB aux DEUX oreilles est nécessaire pour le remboursement de l'intervention logopédique (trouble de l'ouïe), avec 564 séances jusqu'à l'âge de 18 ans.",
@@ -975,10 +975,10 @@ window.APP_DATA = {
         id: "audio_20",
         question: "Quelle est la condition pour bénéficier de la convention « langage oral » concernant l'audition ?",
         options: [
-          "A. Aucune condition liée à l'audition",
+          "A. Une perte auditive inférieure à 30 dB à la meilleure oreille",
           "B. Une perte auditive ne dépassant pas 40 dB à la meilleure oreille",
-          "C. Une perte auditive d'au moins 60 dB aux deux oreilles",
-          "D. Une surdité totale unilatérale"
+          "C. Une perte auditive d'au moins 50 dB aux deux oreilles",
+          "D. Une surdité unilatérale profonde"
         ],
         correct: 1,
         explanation: "La convention « langage oral » exige que la perte auditive ne dépasse pas 40 dB à la meilleure oreille. Au-delà de 40 dB de perte aux deux oreilles, l'enfant relève de la convention « trouble de l'ouïe » avec un nombre de séances différent (564 séances jusqu'à 18 ans).",
@@ -989,10 +989,10 @@ window.APP_DATA = {
         id: "audio_21",
         question: "Qu'est-ce que la « banane de la parole » sur un audiogramme ?",
         options: [
-          "A. Une zone représentant les sons de l'environnement uniquement",
+          "A. Une zone représentant les bruits ambiants de l'environnement domestique",
           "B. La zone où se situent la plupart des sons de la parole, généralement au-dessus de 40 dB",
-          "C. Une zone de l'audiogramme réservée aux sons graves",
-          "D. La zone correspondant à la conduction osseuse"
+          "C. Une zone de l'audiogramme correspondant aux fréquences inférieures à 500 Hz",
+          "D. La zone délimitant les seuils de la conduction osseuse"
         ],
         correct: 1,
         explanation: "La « banane de la parole » est la zone de l'audiogramme où se situent la plupart des sons de la parole, généralement au-dessus de 40 dB. Cela signifie qu'avec une perte auditive moyenne, les sons de la parole ne sont pas perçus, ce qui a des conséquences majeures sur le développement du langage.",
@@ -1003,10 +1003,10 @@ window.APP_DATA = {
         id: "audio_22",
         question: "Parmi les propositions suivantes concernant le syndrome de Waardenburg, laquelle est correcte ?",
         options: [
-          "A. Il est toujours associé à une déficience intellectuelle",
+          "A. Il comporte une déficience intellectuelle dans la majorité des cas",
           "B. Il est caractérisé par un défaut de pigmentation (mèche blanche), une mutation PAX3, de transmission autosomique dominante",
-          "C. Il entraîne une surdité de transmission uniquement",
-          "D. Il est causé par une infection à CMV"
+          "C. Il entraîne une surdité de transmission bilatérale",
+          "D. Il est secondaire à une infection congénitale à cytomégalovirus"
         ],
         correct: 1,
         explanation: "Le syndrome de Waardenburg est caractérisé par un défaut de pigmentation (mèche blanche), une mutation du gène PAX3 et une transmission autosomique dominante. C'est une surdité syndromique (30% des surdités génétiques). Il n'est pas toujours associé à une déficience intellectuelle (A), n'est pas une surdité de transmission pure (C), et n'est pas causé par le CMV (D).",
@@ -1017,10 +1017,10 @@ window.APP_DATA = {
         id: "audio_23",
         question: "Quelle est la particularité de la mutation GJB2 (Connexine 26) ?",
         options: [
-          "A. Elle est toujours associée à un syndrome polymalformatif",
+          "A. Elle s'accompagne de malformations de l'oreille externe et moyenne",
           "B. C'est la mutation la plus fréquente des surdités génétiques non syndromiques (15-40%), sans troubles associés, avec un bon succès d'implant cochléaire",
-          "C. Elle entraîne une surdité progressive uniquement",
-          "D. Elle affecte exclusivement l'oreille moyenne"
+          "C. Elle provoque une surdité d'évolution progressive apparaissant à l'adolescence",
+          "D. Elle affecte la cochlée et le système vestibulaire"
         ],
         correct: 1,
         explanation: "La mutation GJB2 (Connexine 26) est la plus fréquente des surdités génétiques non syndromiques (15-40%). Elle se caractérise par l'absence de troubles associés, un développement normal et un bon succès d'implantation cochléaire. Seul l'organe de Corti est affecté. Elle n'est pas syndromique (A incorrect), n'est pas exclusivement progressive (C), et affecte l'oreille interne (D incorrect).",
@@ -1045,10 +1045,10 @@ window.APP_DATA = {
         id: "audio_25",
         question: "À quoi sert le masking (masquage) en audiométrie ?",
         options: [
-          "A. À amplifier les sons pour mieux les entendre",
+          "A. À amplifier les signaux sonores pour les rendre plus perceptibles",
           "B. À envoyer un bruit blanc dans la meilleure oreille pour tester l'autre oreille de manière isolée",
-          "C. À mesurer la conduction osseuse",
-          "D. À tester la compréhension de la parole"
+          "C. À mesurer spécifiquement la conduction osseuse controlatérale",
+          "D. À évaluer la compréhension de la parole en condition de bruit"
         ],
         correct: 1,
         explanation: "Le masking (masquage) consiste à envoyer un bruit blanc dans la meilleure oreille afin de pouvoir tester l'autre oreille de manière isolée. Cela évite que la meilleure oreille n'entende les sons destinés à l'oreille testée (audition controlatérale).",
@@ -1120,7 +1120,7 @@ window.APP_DATA = {
                 "A. 1/5 — Robuste",
                 "B. 3/5 — Fragile",
                 "C. 2/5 — Pré-fragile",
-                "D. 5/5 — Très fragile"
+                "D. 5/5 — Dépendante"
               ],
               correct: 1,
               explanation: "Mme Vandenberghe présente 3 critères de Fried : (1) perte de poids >4,5 kg en 1 an, (2) fatigue auto-rapportée, (3) lenteur (marche de 4 m en 5 secondes, soit >4 secondes). Score ≥3 = fragile. La force de préhension n'a pas été mesurée et la sédentarité n'est pas documentée, mais les 3 critères suffisent au diagnostic de fragilité.",
@@ -1129,10 +1129,10 @@ window.APP_DATA = {
             {
               question: "La presbyacousie non appareillée de Mme Vandenberghe (perte moyenne de 55 dB) peut contribuer à :",
               options: [
-                "A. Uniquement une gêne auditive sans autre conséquence",
+                "A. Une gêne auditive circonscrite aux situations de conversation en groupe",
                 "B. Un isolement social, des symptômes évocateurs de déclin cognitif, et un risque accru de fragilité",
-                "C. Une amélioration de ses capacités cognitives par compensation",
-                "D. Une perte totale du langage oral"
+                "C. Une amélioration compensatoire de l'attention visuelle",
+                "D. Une altération progressive de la production du langage oral"
               ],
               correct: 1,
               explanation: "Une perte auditive moyenne non appareillée (55 dB = moyenne 1er degré selon la BIAP) signifie que les sons de la parole (situés au-dessus de 40 dB dans la « banane de la parole ») ne sont pas ou mal perçus. Cela entraîne un isolement social (arrêt du bridge, refus des invitations), des symptômes pouvant mimer un déclin cognitif (« ailleurs », « ne comprend pas »), et contribue à la fragilité en réduisant les interactions sociales et la stimulation cognitive. La presbyacousie justifie un appareillage précoce.",
@@ -1176,10 +1176,10 @@ window.APP_DATA = {
             {
               question: "La dysphagie et les fausses routes chez M. Lefebvre relèvent de quel type d'intervention logopédique prioritaire en gériatrie ?",
               options: [
-                "A. Uniquement un travail sur la voix (hypophonie)",
+                "A. Un travail ciblé sur la restauration de la qualité vocale (hypophonie)",
                 "B. Un Projet d'Intervention Logopédique (PIL) incluant évaluation et prise en charge de la déglutition, travail vocal, et conseils à l'entourage",
-                "C. Une intervention exclusivement médicamenteuse",
-                "D. Une absence d'intervention car la dysphagie est inévitable dans la maladie de Parkinson"
+                "C. Une prise en charge pharmacologique de la dysphagie",
+                "D. Une abstention thérapeutique car la dysphagie fait partie de l'évolution naturelle de la maladie de Parkinson"
               ],
               correct: 1,
               explanation: "Le logopède intervient dans les pathologies neurodégénératives (Parkinson) sur deux axes : la communication (hypophonie, prosodie) et la déglutition (dysphagie, fausses routes). Le PIL peut être restaurateur, réorganisateur ou palliatif. L'intervention inclut des séances individuelles, des conseils à l'entourage et une formation d'équipe. Les rôles-clés sont : Identifier, Évaluer, Intervenir, Informer, Collaborer, Former/Éduquer.",
@@ -1188,10 +1188,10 @@ window.APP_DATA = {
             {
               question: "La honte exprimée par M. Lefebvre concernant sa voix et ses difficultés alimentaires illustre :",
               options: [
-                "A. Un syndrome dépressif sans lien avec sa pathologie",
+                "A. Un épisode dépressif réactionnel sans lien avec la pathologie parkinsonienne",
                 "B. L'impact psychosocial des troubles de la communication et de la déglutition, pouvant conduire à l'isolement social et aggraver la fragilité",
-                "C. Un trouble de la personnalité préexistant",
-                "D. Une simple timidité passagère"
+                "C. Un trait de personnalité préexistant exacerbé par la maladie",
+                "D. Une manifestation transitoire liée à la période d'adaptation au diagnostic"
               ],
               correct: 1,
               explanation: "La honte et le retrait social de M. Lefebvre illustrent l'impact psychosocial majeur des troubles de la communication (hypophonie) et de la déglutition (fausses routes), qui peuvent conduire à l'isolement, à la dénutrition (perte de 6 kg) et aggravent la fragilité. L'approche interdisciplinaire doit intégrer cette dimension psycho-affective et sociale, en travaillant sur l'image de soi et le maintien du lien social.",
@@ -1228,7 +1228,7 @@ window.APP_DATA = {
               "A. Des prothèses auditives conventionnelles car la perte est légère",
               "B. Un implant cochléaire bilatéral précoce, car la surdité est profonde bilatérale et 80% des enfants sourds profonds en bénéficient",
               "C. Un appareillage en conduction osseuse (BAHA)",
-              "D. Aucun appareillage n'est nécessaire avant l'âge scolaire"
+              "D. L'appareillage peut être différé jusqu'à l'entrée à l'école primaire"
             ],
             correct: 1,
             explanation: "Pour une surdité de perception bilatérale profonde (>100 dB), les prothèses auditives conventionnelles sont insuffisantes. L'implant cochléaire (IC) bilatéral précoce est fortement indiqué, idéalement avant 2 ans. 80% des enfants sourds profonds reçoivent un IC. L'appareillage en conduction osseuse (BAHA) est réservé aux surdités de transmission. L'intervention précoce est cruciale pour le développement du langage.",
@@ -1279,10 +1279,10 @@ window.APP_DATA = {
           {
             question: "Concernant la mutation Connexine 26 (GJB2), quel est le pronostic pour le développement langagier de Lucas ?",
             options: [
-              "A. Mauvais pronostic car la mutation est toujours associée à des troubles associés sévères",
+              "A. Pronostic réservé car la mutation s'accompagne de troubles cognitifs associés",
               "B. Bon pronostic, car cette mutation n'est pas associée à d'autres troubles, le développement suit un cours normal et le succès de l'appareillage est bon",
-              "C. Pronostic réservé car la surdité est progressive et fluctuante",
-              "D. La mutation nécessite obligatoirement un implant cochléaire"
+              "C. Pronostic incertain car la surdité est de type fluctuante",
+              "D. La mutation contre-indique le recours à l'implant cochléaire"
             ],
             correct: 1,
             explanation: "La mutation GJB2 (Connexine 26) est la plus fréquente des surdités non syndromiques (15-40%). Elle n'est pas associée à d'autres troubles, seul l'organe de Corti est affecté. Le développement suit normalement son cours, et le succès de l'appareillage (prothèses ou IC) est bon. Contrairement au syndrome de Pendred (C), la surdité n'est pas fluctuante.",
@@ -1376,7 +1376,7 @@ window.APP_DATA = {
                 "A. Retour à domicile immédiat avec suivi par le médecin traitant",
                 "B. SSR gériatrique (Soins de Suite et Réadaptation) pour évaluation multidisciplinaire et réhabilitation",
                 "C. Hospitalisation en service de chirurgie",
-                "D. Maintien à domicile avec portage de repas uniquement"
+                "D. Maintien à domicile avec portage de repas et téléassistance"
               ],
               correct: 1,
               explanation: "Le retour à domicile est dangereux vu la fragilité sévère (5/5), la dénutrition, l'isolement social, le refus d'aide et l'incapacité à se relever seule. Un SSR gériatrique permettra une EGM complète, une renutrition, un travail pluridisciplinaire (kinésithérapie, logopédie si dysphagie, soutien psychologique, diététique) et une évaluation sociale pour préparer un retour à domicile sécurisé ou une orientation adaptée.",
@@ -1396,10 +1396,10 @@ window.APP_DATA = {
             {
               question: "Quel lien peut-on faire entre l'arrêt de la kinésithérapie respiratoire et la fragilité chez M. Leroy ?",
               options: [
-                "A. Aucun lien : la kinésithérapie respiratoire n'a pas d'impact sur la fragilité",
+                "A. La kinésithérapie respiratoire est sans effet démontré sur la fragilité",
                 "B. L'arrêt de la kiné par « fatigue » est un cercle vicieux : la BPCO aggrave la fragilité (sédentarité, dénutrition), et la fragilité réduit la tolérance à l'effort et la motivation pour la kinésithérapie",
-                "C. La kinésithérapie respiratoire aggrave la fragilité",
-                "D. La fragilité protège contre les exacerbations de BPCO"
+                "C. La kinésithérapie respiratoire contribue à aggraver la fragilité chez le patient BPCO",
+                "D. La fragilité clinique exerce un effet protecteur contre les exacerbations de BPCO"
               ],
               correct: 1,
               explanation: "L'arrêt de la kinésithérapie respiratoire jugée « trop fatigante » illustre un cercle vicieux : la BPCO aggrave la fragilité (sédentarité, dénutrition par fausses routes, fonte musculaire), et la fragilité réduit la tolérance à l'effort et la motivation, conduisant à l'arrêt de la kiné, ce qui aggrave la BPCO. La réversibilité est jugée LIMITÉE en raison de la sévérité de la BPCO et de la dénutrition.",
@@ -1408,9 +1408,9 @@ window.APP_DATA = {
             {
               question: "Quel rôle le logopède peut-il jouer dans la prise en charge de M. Leroy ?",
               options: [
-                "A. Aucun, la BPCO ne relève pas de la logopédie",
+                "A. La BPCO relève d'une prise en charge pneumologique et non logopédique",
                 "B. Évaluation et prise en charge de la dysphagie (fausses routes), adaptation des textures, conseils à l'épouse, coordination avec la diététicienne",
-                "C. Uniquement un travail sur la communication",
+                "C. Un travail centré sur les troubles de la communication verbale",
                 "D. Prescription d'oxygénothérapie"
               ],
               correct: 1,
