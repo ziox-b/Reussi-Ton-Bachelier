@@ -1468,7 +1468,7 @@
           "question": "Quel avantage Michel a-t-il par rapport à Capucine (sourde de naissance) pour le pronostic de l'IC ?",
           "options": ["A. Aucun avantage, le pronostic est identique", "B. Michel a eu une audition normale pendant plusieurs décennies — son cerveau a développé des représentations auditives du langage qui peuvent être réactivées par l'IC, ce qui rend la rééducation plus rapide et le pronostic plus favorable", "C. L'âge de Michel est un désavantage insurmontable", "D. Les surdités acquises ne sont pas éligibles à l'implantation cochléaire"],
           "correct": 1,
-          "explanation": "Michel a un avantage considérable sur Capucine : il a entendu normalement pendant plusieurs décennies avant que sa surdité ne devienne sévère. Son cerveau a donc développé des représentations auditives du langage (traces mnésiques) qui persistent malgré la perte auditive. Ces représentations peuvent être RÉACTIVÉES par la stimulation de l'IC, ce qui rend la rééducation plus rapide et le pronostic plus favorable. C'est le même principe qui avantage les surdités pétrilinguales sur les surdités prélinguales.",
+          "explanation": "Michel a un avantage considérable sur Capucine : il a entendu normalement pendant plusieurs décennies avant que sa surdité ne devienne sévère. Son cerveau a donc développé des représentations auditives du langage (traces mnésiques) qui persistent malgré la perte auditive. Ces représentations peuvent être RÉACTIVÉES par la stimulation de l'IC, ce qui rend la rééducation plus rapide et le pronostic plus favorable. C'est le même principe qui avantage les surdités périlinguales sur les surdités prélinguales.",
           "source": "Presbyacousie et LL"
         },
         {

@@ -897,7 +897,7 @@ window.APP_DATA = {
           "D. Des séquelles limitées au système vestibulaire"
         ],
         correct: 1,
-        explanation: "La méningite peut entraîner une ossification rapide de la cochlée, ce qui constitue une URGENCE pour l'implantation cochléaire. Les résultats sont mitigés. La surdité post-méningite est de type perception, acquise, et peut survenir en période pétrilinguale.",
+        explanation: "La méningite peut entraîner une ossification rapide de la cochlée, ce qui constitue une URGENCE pour l'implantation cochléaire. Les résultats sont mitigés. La surdité post-méningite est de type perception, acquise, et peut survenir en période périlinguale.",
         source: "Les Surdités - Module 1",
         difficulty: "hard"
       },
@@ -953,7 +953,7 @@ window.APP_DATA = {
           "D. À l'âge adulte"
         ],
         correct: 1,
-        explanation: "La surdité prélinguale survient avant l'acquisition du langage (surdité de naissance). La surdité pétrilinguale (C) survient pendant l'acquisition du langage (1-3 ans), l'enfant ayant déjà été exposé au langage. La surdité postlinguale/tardive peut être brutale ou progressive.",
+        explanation: "La surdité prélinguale survient avant l'acquisition du langage (surdité de naissance). La surdité périlinguale (C) survient pendant l'acquisition du langage (1-3 ans), l'enfant ayant déjà été exposé au langage. La surdité postlinguale/tardive peut être brutale ou progressive.",
         source: "Les Surdités - Module 1",
         difficulty: "easy"
       },
@@ -1215,7 +1215,7 @@ window.APP_DATA = {
             options: [
               "A. Surdité postlinguale — seul le langage écrit est affecté",
               "B. Surdité prélinguale — absence de babillage, absence de dialogue tonique, absence de précurseurs du langage",
-              "C. Surdité pétrilinguale — l'enfant a déjà été exposé au langage",
+              "C. Surdité périlinguale — l'enfant a déjà été exposé au langage",
               "D. Surdité tardive — apparition après 6 ans"
             ],
             correct: 1,

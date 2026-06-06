@@ -494,7 +494,7 @@
     },
     {
       id: "audio_38",
-      question: "Quelle est la particularité d'une surdité pétrilinguale (survenant entre 1 et 3 ans) concernant le développement du langage ?",
+      question: "Quelle est la particularité d'une surdité périlinguale (survenant entre 1 et 3 ans) concernant le développement du langage ?",
       options: [
         "A. Elle a un impact modéré car l'enfant conserve les acquisitions lexicales antérieures",
         "B. L'enfant a déjà été exposé au langage et a commencé à développer le babillage et les premiers mots, mais le langage est encore en pleine acquisition — le risque de régression du langage est significatif sans appareillage rapide",
@@ -502,7 +502,7 @@
         "D. Elle stimule le développement compensatoire de la perception visuelle du langage"
       ],
       correct: 1,
-      explanation: "La surdité pétrilinguale (1-3 ans) survient pendant la période critique d'acquisition du langage. L'enfant a déjà été exposé au langage (babillage, premiers mots), mais l'acquisition est encore en cours. Le risque de régression du langage est significatif si l'appareillage n'est pas rapide. Une intervention précoce multidisciplinaire (ORL, logopédie, audioprothèse) est cruciale.",
+      explanation: "La surdité périlinguale (1-3 ans) survient pendant la période critique d'acquisition du langage. L'enfant a déjà été exposé au langage (babillage, premiers mots), mais l'acquisition est encore en cours. Le risque de régression du langage est significatif si l'appareillage n'est pas rapide. Une intervention précoce multidisciplinaire (ORL, logopédie, audioprothèse) est cruciale.",
       source: "Les Surdités - Module 1",
       difficulty: "medium"
     },
@@ -730,10 +730,10 @@
       {
         id: "fm_audio_05",
         title: "Âge d'apparition de la surdité",
-        content: "L'âge de survenue de la surdité conditionne le pronostic langagier. (1) Surdité prélinguale : avant l'acquisition du langage (naissance). Aucune exposition au langage oral. Conséquences : absence de babillage, absence de précurseurs du langage. Appareillage précoce crucial. (2) Surdité pétrilinguale : pendant l'acquisition du langage (1-3 ans). L'enfant a été exposé au langage (babillage, premiers mots) mais l'acquisition est en cours. Risque de régression. (3) Surdité postlinguale/tardive : après acquisition du langage. Peut être brutale ou progressive. L'enfant a acquis le langage oral. L'enjeu est le maintien de l'intelligibilité et de la communication. Remarque : pour les surdités acquises, l'étiologie peut être traumatique, infectieuse, médicamenteuse, tumorale ou liée à l'âge (presbyacousie).",
+        content: "L'âge de survenue de la surdité conditionne le pronostic langagier. (1) Surdité prélinguale : avant l'acquisition du langage (naissance). Aucune exposition au langage oral. Conséquences : absence de babillage, absence de précurseurs du langage. Appareillage précoce crucial. (2) Surdité périlinguale : pendant l'acquisition du langage (1-3 ans). L'enfant a été exposé au langage (babillage, premiers mots) mais l'acquisition est en cours. Risque de régression. (3) Surdité postlinguale/tardive : après acquisition du langage. Peut être brutale ou progressive. L'enfant a acquis le langage oral. L'enjeu est le maintien de l'intelligibilité et de la communication. Remarque : pour les surdités acquises, l'étiologie peut être traumatique, infectieuse, médicamenteuse, tumorale ou liée à l'âge (presbyacousie).",
         keyPoints: [
           "Prélinguale : avant langage (naissance), pas d'exposition → appareillage urgent",
-          "Pétrilinguale : pendant acquisition (1-3 ans), risque de régression → appareillage rapide",
+          "Périlinguale : pendant acquisition (1-3 ans), risque de régression → appareillage rapide",
           "Postlinguale : après langage, maintien intelligibilité",
           "Étiologies acquises : traumatique, infectieuse, médicamenteuse, tumorale, âge (presbyacousie)",
           "80% enfants sourds profonds reçoivent IC ; 95% ont parents entendants"
@@ -1263,7 +1263,7 @@
     {
       id: "audio_reed_03",
       title: "Inès, 4 ans : surdité de perception bilatérale profonde post-méningite (ossification cochléaire débutante)",
-      audiogramDescription: "Audiométrie tonale post-méningite : absence de réponse à 250, 500, 1000, 2000, 4000 Hz jusqu'à 100 dB en CA et CO bilatérale. PEA absents à 95 dB. OEA absentes. Scanner des rochers : ossification débutante de la cochlée droite, cochlée gauche perméable. Diagnostic : surdité de perception bilatérale profonde post-méningite (pétrilinguale).",
+      audiogramDescription: "Audiométrie tonale post-méningite : absence de réponse à 250, 500, 1000, 2000, 4000 Hz jusqu'à 100 dB en CA et CO bilatérale. PEA absents à 95 dB. OEA absentes. Scanner des rochers : ossification débutante de la cochlée droite, cochlée gauche perméable. Diagnostic : surdité de perception bilatérale profonde post-méningite (périlinguale).",
       hearingLoss: { type: "Perception (neurosensorielle) bilatérale post-méningite", degree: "Profonde", ear: "Bilatérale", averageLoss: ">100 dB" },
       questions: [
         {
@@ -1282,12 +1282,12 @@
           question: "Inès avait 3 ans et demi lors de la méningite et avait déjà développé du langage (babillage, 50 mots, début de phrases). De quel type de surdité s'agit-il selon l'âge de survenue ?",
           options: [
             "A. Surdité prélinguale congénitale",
-            "B. Surdité pétrilinguale — l'enfant a déjà été exposé au langage, le langage était en pleine acquisition, le risque de régression est majeur sans IC rapide",
+            "B. Surdité périlinguale — l'enfant a déjà été exposé au langage, le langage était en pleine acquisition, le risque de régression est majeur sans IC rapide",
             "C. Surdité postlinguale précoce",
             "D. Surdité postlinguale tardive de l'enfance"
           ],
           correct: 1,
-          explanation: "La surdité d'Inès est pétrilinguale (entre 1 et 3-4 ans). Elle avait déjà développé du babillage et environ 50 mots avec début de phrases, ce qui signifie qu'elle a été exposée au langage. Le risque de régression du langage est majeur sans implantation cochléaire rapide. Une prise en charge logopédique intensive post-IC est indispensable pour réactiver et développer les acquis langagiers.",
+          explanation: "La surdité d'Inès est périlinguale (entre 1 et 3-4 ans). Elle avait déjà développé du babillage et environ 50 mots avec début de phrases, ce qui signifie qu'elle a été exposée au langage. Le risque de régression du langage est majeur sans implantation cochléaire rapide. Une prise en charge logopédique intensive post-IC est indispensable pour réactiver et développer les acquis langagiers.",
           source: "Les Surdités - Module 1"
         }
       ],
