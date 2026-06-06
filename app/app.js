@@ -1023,10 +1023,10 @@
               <span>${(opt||'').substring(3)}</span>
             </div>`).join('')}
         </div>
-        <div id="feedbackArea"></div>
+        <div id="feedbackArea" style="display:none;"></div>
       </div>
-      <div class="actions">
-        ${state.qIndex < total - 1 ? '<button class="btn btn-primary" id="nextBtn" disabled onclick="App.nextCrashQuestion()">Suivante →</button>' : '<button class="btn btn-success" id="nextBtn" disabled onclick="App.nextCrashQuestion()">Voir les résultats</button>'}
+      <div class="actions" style="justify-content:center;">
+        <span style="color:var(--muted);font-size:0.85rem;">Clique sur ta réponse pour passer à la question suivante</span>
       </div>`;
   }
 
@@ -1038,25 +1038,17 @@
     state.answers.push({ questionId: q.id, selected: index, correct: q.correct, isCorrect });
     if (isCorrect) state.score++;
     if (!isCorrect) {
-      // Trouver le sujet de la question pour enregistrer l'erreur
       let qSubject = 'psycho';
       if (DATA.subjects.geronto.some(gq => gq.id === q.id)) qSubject = 'geronto';
       else if (DATA.subjects.audio.some(aq => aq.id === q.id)) qSubject = 'audio';
       recordError({ id: q.id, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation, source: q.source, difficulty: q.difficulty }, qSubject);
     }
+    // Pas de feedback immédiat, juste passer à la suivante après un court délai
     document.querySelectorAll('.option').forEach((opt, i) => {
       opt.classList.add('disabled');
-      if (i === q.correct) opt.classList.add('correct');
-      if (i === index && !isCorrect) opt.classList.add('wrong');
+      if (i === index) opt.classList.add('selected');
     });
-    const fb = document.getElementById('feedbackArea');
-    if (isCorrect) {
-      fb.innerHTML = '<div class="memo" style="background:#d5f5e3;border-color:#27ae60;"><strong>✓ ' + randomItem(["Bravo !", "Exact !", "Parfait !", "Oui !"]) + '</strong></div>';
-    } else {
-      const sp = sourcePath(q.source);
-      fb.innerHTML = `<div class="memo"><strong>⚠ Bonne réponse : ${String.fromCharCode(65 + q.correct)}</strong><br><br><strong>📝 Explication :</strong> ${q.explanation}<br><br><span class="source">📂 ${q.source}${sp ? ' — <em>' + sp + '</em>' : ''}</span></div>`;
-    }
-    const nb = document.getElementById('nextBtn'); if (nb) nb.disabled = false;
+    setTimeout(() => nextCrashQuestion(), 400);
   }
 
   function nextCrashQuestion() {
