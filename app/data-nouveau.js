@@ -1623,4 +1623,35 @@
     {"term": "VHI — Voice Handicap Index (Indice de Handicap Vocal)", "definition": "Questionnaire validé évaluant l'impact des troubles vocaux sur la qualité de vie. Explore les dimensions fonctionnelle, physique et émotionnelle du handicap vocal. Utilisé dans l'évaluation de la presbyphonie et des dysphonies.", "source": "Presbyphonie et dysphonie", "categorie": "Gériatrie"}
   );
 
+  // === FICHES SOSIES LABIAUX ===
+  A.fichesMemo.audio.push(
+    {
+      "id": "fm_audio_09",
+      "title": "Sosies labiaux — Consonnes visibles et invisibles",
+      "content": "En lecture labiale, certaines consonnes sont visibles car elles mobilisent les lèvres ou les dents, d'autres sont invisibles car produites à l'intérieur de la bouche.\n\nCONSONNES VISIBLES (articulation antérieure) :\n• Bilabiales : /p/, /b/, /m/ — les deux lèvres se ferment\n• Labio-dentales : /f/, /v/ — lèvre inférieure contre dents supérieures\n• Linguales antérieures : /t/, /d/, /n/, /l/ — langue contre les alvéoles, mâchoires légèrement ouvertes\n• Chuintantes : /ʃ/ (ch), /ʒ/ (j) — lèvres projetées en avant, arrondies\n\nCONSONNES INVISIBLES (articulation postérieure) :\n• Vélaires : /k/, /g/ — dos de la langue contre le palais mou, invisibles\n• Uvulaire : /ʁ/ (r français) — fond de la gorge\n• Sifflantes : /s/, /z/ — langue contre les alvéoles mais bouche presque fermée, peu visibles\n\nVOYELLES :\n• Visibles : /i/ (lèvres étirées), /u/ (lèvres arrondies projetées), /o/ et /ɔ/ (arrondies), /y/ (arrondies étroites)\n• Moins visibles : /a/, /ɑ/ (bouche ouverte mais peu de mouvement labial), /ə/ (neutre)",
+      "keyPoints": [
+        "/p/, /b/, /m/ sont des SOSIES LABIAUX — identiques sur les lèvres (fermeture bilabiale), seule la sonorité les distingue",
+        "/t/, /d/, /n/ — visibles mais sosies entre eux (même point d'articulation alvéolaire)",
+        "/f/, /v/ — visibles (lèvre+dents) mais sosies entre eux",
+        "/ʃ/ (ch), /ʒ/ (j) — visibles (lèvres projetées) mais sosies entre eux",
+        "/k/, /g/, /ʁ/ — INVISIBLES en lecture labiale (articulation postérieure)",
+        "/s/, /z/ — quasi invisibles (bouche peu ouverte)",
+        "La distinction de SONORITÉ (sourde vs sonore) n'est PAS visible sur les lèvres !"
+      ]
+    },
+    {
+      "id": "fm_audio_10",
+      "title": "Sosies labiaux — groupes de confusion et stratégies de compensation",
+      "content": "GROUPES DE SOSIES LABIAUX (consonnes indiscernables visuellement) :\n\nGroupe 1 — BILABIALES : /p/ (sourde), /b/ (sonore), /m/ (nasale)\n→ Alternative : proposer un mot contenant l'une des autres consonnes du groupe pour tester la discrimination auditive ou l'appui du contexte.\n\nGroupe 2 — LABIO-DENTALES : /f/ (sourde), /v/ (sonore)\n→ Alternative : utiliser des paires minimales comme \"faon\" vs \"vent\".\n\nGroupe 3 — ALVÉOLAIRES : /t/ (sourde), /d/ (sonore), /n/ (nasale), /l/ (latérale)\n→ Alternative : /l/ est la moins confondue car la langue reste en position haute plus longtemps.\n\nGroupe 4 — CHUINTANTES : /ʃ/ (ch, sourde), /ʒ/ (j, sonore)\n→ Alternative : travailler avec des mots où le contexte sémantique lève l'ambiguïté (ex: \"chat\" vs \"jatte\").\n\nGroupe 5 — INVISIBLES : /k/, /g/, /ʁ/, /s/, /z/\n→ Alternative : ces sons nécessitent un appui AUDITIF (appareillage, IC) ou un support visuel complémentaire (LPC, gestes Borel-Maisonny).",
+      "keyPoints": [
+        "Toute paire sourde/sonore est un sosie labial : p/b, t/d, k/g, f/v, s/z, ʃ/ʒ",
+        "Les NASALES (/m/, /n/) sont des sosies de leurs équivalentes orales au même point d'articulation",
+        "Le LPC (Langage Parlé Complété) lève TOUTES les ambiguïtés des sosies labiaux (code manuel + lecture labiale)",
+        "En rééducation : partir du MOT ENTIER (contexte) plutôt que du phonème isolé",
+        "Proposer des CONTRASTES MAXIMAUX : bilabiale (/p/) vs vélaire invisible (/k/) pour que l'enfant discrimine visuellement",
+        "Utiliser le TOUCHER : main sur la gorge pour sentir la vibration des sonores, main devant la bouche pour sentir le souffle des sourdes"
+      ]
+    }
+  );
+
 })();

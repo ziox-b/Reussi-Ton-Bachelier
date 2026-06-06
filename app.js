@@ -403,6 +403,7 @@
     if (tab === 'quiz') {
       ct.innerHTML = `
         <div class="home-grid">
+          <div class="card special" style="border-left:4px solid var(--accent);background:linear-gradient(135deg,#fff5f5,#fff);" onclick="App.startCrashTest()"><div class="icon">⚡</div><h3>Crash Test — 25 questions</h3><p>Quiz express mélangeant Psycho, Gériatrie et Audiologie. 25 questions aléatoires, résultat à la fin.</p><small>⏱ ~10 min</small></div>
           <div class="card subject-psycho" onclick="App.startQuiz('psycho')"><div class="icon">🧠</div><h3>Psychologie — TSA</h3><p>DSM-5, sensoriel, communication, habiletés sociales, ToM, évaluation</p><small>${DATA.subjects.psycho.length} QCM</small></div>
           <div class="card subject-geronto" onclick="App.startQuiz('geronto')"><div class="icon">👴</div><h3>Gérontologie</h3><p>Vieillissement, âgisme, fragilité (Fried), syndromes gériatriques, EGM, MDT</p><small>${DATA.subjects.geronto.length} QCM</small></div>
           <div class="card subject-audio" onclick="App.startQuiz('audio')"><div class="icon">👂</div><h3>Audiologie</h3><p>Types de surdité, degrés BIAP, étiologies, syndromes, audiogramme, troubles associés</p><small>${DATA.subjects.audio.length} QCM</small></div>
@@ -981,6 +982,121 @@
     }
   });
 
-  window.App = { renderHome, showHomeTab, startQuiz, selectAnswer, nextQuestion, startVF, selectVFAnswer, nextVFQuestion, showFichesMemo, showGlossaire, filterGlossaire, showClinicalCases, showFrailVignettes, showAudioReed, showAllCases, toggleCaseAnswer, showMyErrors, retryErrors, selectRetryAnswer, skipRetryQuestion, nextRetryQuestion, createNewProfile, selectProfile, showProfiles, deleteProfileAndRefresh, exportProfileData, exportAllData, importAllData, doImport, toggleGlossary, filterGlossaryPanel };
+  // ==================== CRASH TEST (25 questions aléatoires tous sujets) ====================
+  function startCrashTest() {
+    const allQuestions = [...DATA.subjects.psycho, ...DATA.subjects.geronto, ...DATA.subjects.audio];
+    const picked = shuffle(allQuestions).slice(0, 25);
+    state.subject = 'crash';
+    state.mode = 'quiz';
+    state.qIndex = 0;
+    state.answers = [];
+    state.score = 0;
+    state.answered = false;
+    state.shuffled = picked;
+    renderCrashQuestion();
+  }
+
+  function renderCrashQuestion() {
+    if (state.qIndex >= state.shuffled.length) { renderCrashResults(); return; }
+    const q = state.shuffled[state.qIndex];
+    const total = state.shuffled.length;
+    const current = state.qIndex + 1;
+
+    app.innerHTML = `
+      <div style="margin-bottom:12px;">
+        <button class="btn btn-outline btn-sm" onclick="App.renderHome()">← Retour</button>
+        <div class="breathing" style="display:block;margin:8px 0;font-style:italic;color:var(--muted);">${randomItem(breathing)}</div>
+      </div>
+      <div class="quiz-header">
+        <span class="badge">⚡ Crash Test</span>
+        <span class="badge">${q.difficulty === 'easy' ? '⭐' : q.difficulty === 'medium' ? '⭐⭐' : '⭐⭐⭐'}</span>
+        <span class="progress">Q ${current}/${total}</span>
+        <span class="score">Score: ${state.score}/${state.answers.length}</span>
+      </div>
+      <div class="question-card">
+        <div class="q-number">Q${current}</div>
+        <h3>${q.question}</h3>
+        <div class="options" id="optionsContainer">
+          ${q.options.map((opt, i) => `
+            <div class="option" data-index="${i}" onclick="App.selectCrashAnswer(${i})">
+              <span class="letter">${String.fromCharCode(65 + i)}</span>
+              <span>${(opt||'').substring(3)}</span>
+            </div>`).join('')}
+        </div>
+        <div id="feedbackArea"></div>
+      </div>
+      <div class="actions">
+        ${state.qIndex < total - 1 ? '<button class="btn btn-primary" id="nextBtn" disabled onclick="App.nextCrashQuestion()">Suivante →</button>' : '<button class="btn btn-success" id="nextBtn" disabled onclick="App.nextCrashQuestion()">Voir les résultats</button>'}
+      </div>`;
+  }
+
+  function selectCrashAnswer(index) {
+    if (state.answered) return;
+    state.answered = true;
+    const q = state.shuffled[state.qIndex];
+    const isCorrect = index === q.correct;
+    state.answers.push({ questionId: q.id, selected: index, correct: q.correct, isCorrect });
+    if (isCorrect) state.score++;
+    if (!isCorrect) {
+      // Trouver le sujet de la question pour enregistrer l'erreur
+      let qSubject = 'psycho';
+      if (DATA.subjects.geronto.some(gq => gq.id === q.id)) qSubject = 'geronto';
+      else if (DATA.subjects.audio.some(aq => aq.id === q.id)) qSubject = 'audio';
+      recordError({ id: q.id, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation, source: q.source, difficulty: q.difficulty }, qSubject);
+    }
+    document.querySelectorAll('.option').forEach((opt, i) => {
+      opt.classList.add('disabled');
+      if (i === q.correct) opt.classList.add('correct');
+      if (i === index && !isCorrect) opt.classList.add('wrong');
+    });
+    const fb = document.getElementById('feedbackArea');
+    if (isCorrect) {
+      fb.innerHTML = '<div class="memo" style="background:#d5f5e3;border-color:#27ae60;"><strong>✓ ' + randomItem(["Bravo !", "Exact !", "Parfait !", "Oui !"]) + '</strong></div>';
+    } else {
+      const sp = sourcePath(q.source);
+      fb.innerHTML = `<div class="memo"><strong>⚠ Bonne réponse : ${String.fromCharCode(65 + q.correct)}</strong><br><br><strong>📝 Explication :</strong> ${q.explanation}<br><br><span class="source">📂 ${q.source}${sp ? ' — <em>' + sp + '</em>' : ''}</span></div>`;
+    }
+    const nb = document.getElementById('nextBtn'); if (nb) nb.disabled = false;
+  }
+
+  function nextCrashQuestion() {
+    state.qIndex++; state.answered = false;
+    state.qIndex >= state.shuffled.length ? renderCrashResults() : (renderCrashQuestion(), window.scrollTo({top:0,behavior:'smooth'}));
+  }
+
+  function renderCrashResults() {
+    const total = state.shuffled.length;
+    const pct = total > 0 ? Math.round((state.score / total) * 100) : 0;
+    const mood = randomItem(getMood(state.score, total));
+    const wrong = state.answers.filter(a => !a.isCorrect);
+    let wrongHtml = '';
+    if (wrong.length > 0) {
+      wrongHtml = `<div style="text-align:left;margin-top:20px;"><h3 style="margin-bottom:12px;">📝 Révision des erreurs (${wrong.length})</h3>`;
+      wrong.forEach((a, i) => {
+        const q = state.shuffled.find(sq => sq.id === a.questionId); if (!q) return;
+        const sp = sourcePath(q.source);
+        wrongHtml += `<div class="accordion"><div class="accordion-header" onclick="this.nextElementSibling.classList.toggle('open')"><span>Q${i+1}. ${q.question.substring(0,80)}...</span></div><div class="accordion-content"><p><strong>Ta réponse :</strong> ${String.fromCharCode(65+a.selected)} — <strong>Correcte :</strong> ${String.fromCharCode(65+q.correct)}</p><p style="margin-top:8px;">${q.explanation}</p><p style="font-size:0.8rem;color:var(--muted);margin-top:8px;font-style:italic;">📂 ${q.source}${sp?' — '+sp:''}</p></div></div>`;
+      });
+      wrongHtml += '</div>';
+    }
+    app.innerHTML = `
+      <div class="results">
+        <h2>⚡ ${pct>=70?'🎉':pct>=50?'👍':'💪'} ${mood}</h2>
+        <div class="final-score">${state.score}/${total}</div>
+        <p style="font-size:1.2rem;color:var(--muted);">${pct}% de réussite</p>
+        <div class="stats">
+          <div class="stat"><div class="num" style="color:var(--success)">${state.score}</div><div class="label">Correctes</div></div>
+          <div class="stat"><div class="num" style="color:var(--accent)">${wrong.length}</div><div class="label">Incorrectes</div></div>
+          <div class="stat"><div class="num">${total}</div><div class="label">Total</div></div>
+        </div>
+        ${wrongHtml}
+        <div class="actions" style="margin-top:24px;">
+          <button class="btn btn-primary" onclick="App.startCrashTest()">🔄 Nouveau Crash Test</button>
+          <button class="btn btn-outline" onclick="App.renderHome()">🏠 Accueil</button>
+        </div>
+      </div>`;
+  }
+
+  window.App = { renderHome, showHomeTab, startQuiz, selectAnswer, nextQuestion, startVF, selectVFAnswer, nextVFQuestion, showFichesMemo, showGlossaire, filterGlossaire, showClinicalCases, showFrailVignettes, showAudioReed, showAllCases, toggleCaseAnswer, showMyErrors, retryErrors, selectRetryAnswer, skipRetryQuestion, nextRetryQuestion, createNewProfile, selectProfile, showProfiles, deleteProfileAndRefresh, exportProfileData, exportAllData, importAllData, doImport, toggleGlossary, filterGlossaryPanel, startCrashTest, selectCrashAnswer, nextCrashQuestion };
   renderHome();
 })();
