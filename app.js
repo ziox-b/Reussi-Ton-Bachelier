@@ -1009,9 +1009,7 @@
       </div>
       <div class="quiz-header">
         <span class="badge">⚡ Crash Test</span>
-        <span class="badge">${q.difficulty === 'easy' ? '⭐' : q.difficulty === 'medium' ? '⭐⭐' : '⭐⭐⭐'}</span>
         <span class="progress">Q ${current}/${total}</span>
-        <span class="score">Score: ${state.score}/${state.answers.length}</span>
       </div>
       <div class="question-card">
         <div class="q-number">Q${current}</div>
